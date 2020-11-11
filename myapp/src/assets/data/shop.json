@@ -1,0 +1,232 @@
+{
+  "code": 12000,
+  "message": "",
+  "data": [
+    {
+      "id": 1,
+      "name": "建材馆",
+      "data": [
+        {
+          "img": "https://www.woimg.com/beego/86ad6257273da31a0beb528ce1993177.png",
+          "name": "瓷砖",
+          "url": "https://m.anlewo.com/shop/goodsList?cateId=396",
+          "id": "1",
+          "ids": "[335,337,375,392,393,396]",
+          "type": {
+            "kind": 9,
+            "url": "https://m.anlewo.com/shop/goodsList?cateId=335,337,375,392,393,396",
+            "ids": [335, 337, 375, 392, 393, 396],
+            "id": 393
+          }
+        },
+        {
+          "img": "https://www.woimg.com/beego/e49ce80ec676383491f0e80868a15608.png",
+          "name": "木地板",
+          "url": "https://m.anlewo.com/shop/goodsList?cateId=336",
+          "id": "1",
+          "ids": "[336]",
+          "type": {
+            "kind": 9,
+            "url": "https://m.anlewo.com/shop/goodsList?cateId=336",
+            "ids": [336],
+            "id": 0
+          }
+        },
+        {
+          "img": "https://www.woimg.com/beego/7194e4a0e58f44bb277a61899a69fa89.png",
+          "name": "洁具卫浴",
+          "url": "https://m.anlewo.com/shop/goodsList?cateId=635",
+          "id": "1",
+          "ids": "[347,348,349,351,360,361,374,455,465,467,583,635]",
+          "type": {
+            "kind": 9,
+            "url": "https://m.anlewo.com/shop/goodsList?cateId=347,348,349,351,360,361,374,455,465,467,583,635",
+            "ids": [347, 348, 349, 351, 360, 361, 374, 455, 465, 467, 583, 635],
+            "id": 583
+          }
+        },
+        {
+          "img": "https://www.woimg.com/beego/37c8acb893111394a0179d5b28c96bee.png",
+          "name": "橱柜",
+          "url": "https://m.anlewo.com/shop/goodsList?cateId=339",
+          "id": "1",
+          "ids": "[339]",
+          "type": {
+            "kind": 9,
+            "url": "https://m.anlewo.com/shop/goodsList?cateId=339",
+            "ids": [339],
+            "id": 0
+          }
+        },
+        {
+          "img": "https://www.woimg.com/beego/85cadd506961e058c2c349e4219b15e9.png",
+          "name": "室内门",
+          "url": "https://m.anlewo.com/shop/goodsList?cateId=343",
+          "id": "1",
+          "ids": "[341,342,343]",
+          "type": {
+            "kind": 9,
+            "url": "https://m.anlewo.com/shop/goodsList?cateId=341,342,343",
+            "ids": [341, 342, 343],
+            "id": 342
+          }
+        },
+        {
+          "img": "https://www.woimg.com/beego/13d5c5e567b81485d9ebaaf01a328570.png",
+          "name": "集成吊顶",
+          "url": "https://m.anlewo.com/shop/goodsList?cateId=438",
+          "id": "1",
+          "ids": "[353,429,430,438]",
+          "type": {
+            "kind": 9,
+            "url": "https://m.anlewo.com/shop/goodsList?cateId=353,429,430,438",
+            "ids": [353, 429, 430, 438],
+            "id": 430
+          }
+        },
+        {
+          "img": "https://www.woimg.com/beego/0b91a176272be5399d0857e9c8e88af6.png",
+          "name": "卫浴五金",
+          "url": "https://m.anlewo.com/shop/goodsList?cateId=363",
+          "id": "1",
+          "ids": "[363]",
+          "type": {
+            "kind": 9,
+            "url": "https://m.anlewo.com/shop/goodsList?cateId=363",
+            "ids": [363],
+            "id": 0
+          }
+        },
+        {
+          "img": "https://www.woimg.com/beego/d5b0169cd3d17f851ee17f739a391611.png",
+          "name": "建材辅料",
+          "url": "https://m.anlewo.com/shop/goodsList?cateId=581",
+          "id": "1",
+          "ids": "[581]",
+          "type": {
+            "kind": 9,
+            "url": "https://m.anlewo.com/shop/goodsList?cateId=581",
+            "ids": [581],
+            "id": 0
+          }
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "电器馆",
+      "data": [
+        {
+          "img": "https://www.woimg.com/beego/613e9f3d7038e3ab8e5d5e15181fbb1e.png",
+          "name": "油烟机",
+          "url": "https://m.anlewo.com/shop/goodsList?cateId=486",
+          "id": "3",
+          "ids": "[486]",
+          "type": {
+            "kind": 9,
+            "url": "https://m.anlewo.com/shop/goodsList?cateId=486",
+            "ids": [486],
+            "id": 0
+          }
+        },
+        {
+          "img": "https://www.woimg.com/beego/946e687f20e56ef87c1ac4af98bc7a79.png",
+          "name": "炉灶",
+          "url": "https://m.anlewo.com/shop/goodsList?cateId=487",
+          "id": "3",
+          "ids": "[487]",
+          "type": {
+            "kind": 9,
+            "url": "https://m.anlewo.com/shop/goodsList?cateId=487",
+            "ids": [487],
+            "id": 0
+          }
+        },
+        {
+          "img": "https://www.woimg.com/beego/c510ad5714d802347c558fae8cb199dc.png",
+          "name": "消毒柜",
+          "url": "https://m.anlewo.com/shop/goodsList?cateId=488",
+          "id": "3",
+          "ids": "[488]",
+          "type": {
+            "kind": 9,
+            "url": "https://m.anlewo.com/shop/goodsList?cateId=488",
+            "ids": [488],
+            "id": 0
+          }
+        },
+        {
+          "img": "https://www.woimg.com/beego/99ca4ad497b5671db5a7a926bda932c7.png",
+          "name": "洗碗机",
+          "url": "https://m.anlewo.com/shop/goodsList?cateId=489",
+          "id": "3",
+          "ids": "[489]",
+          "type": {
+            "kind": 9,
+            "url": "https://m.anlewo.com/shop/goodsList?cateId=489",
+            "ids": [489],
+            "id": 0
+          }
+        },
+        {
+          "img": "https://www.woimg.com/beego/688f97add9d9976a7310912a55c6053a.png",
+          "name": "热水器",
+          "url": "https://m.anlewo.com/shop/goodsList?cateId=490",
+          "id": "3",
+          "ids": "[490]",
+          "type": {
+            "kind": 9,
+            "url": "https://m.anlewo.com/shop/goodsList?cateId=490",
+            "ids": [490],
+            "id": 0
+          }
+        },
+        {
+          "img": "https://www.woimg.com/beego/c285bc626c8ef4e0e824bfc1d3c73a6f.png",
+          "name": "净水器",
+          "url": "https://m.anlewo.com/shop/goodsList?cateId=491",
+          "id": "3",
+          "ids": "[491]",
+          "type": {
+            "kind": 9,
+            "url": "https://m.anlewo.com/shop/goodsList?cateId=491",
+            "ids": [491],
+            "id": 0
+          }
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "软装馆",
+      "data": [
+        {
+          "img": "https://www.woimg.com/beego/e4cdc2a51fe045a80a3c2657fb626bc4.png",
+          "name": "灯具",
+          "url": "https://m.anlewo.com/shop/goodsList?cateId=494",
+          "id": "4",
+          "ids": "[494]",
+          "type": {
+            "kind": 9,
+            "url": "https://m.anlewo.com/shop/goodsList?cateId=494",
+            "ids": [494],
+            "id": 0
+          }
+        },
+        {
+          "img": "https://www.woimg.com/beego/158dda97f66800f38c3efc096bdb9ae2.png",
+          "name": "窗帘",
+          "url": "https://m.anlewo.com/shop/goodsList?cateId=504",
+          "id": "4",
+          "ids": "[504]",
+          "type": {
+            "kind": 9,
+            "url": "https://m.anlewo.com/shop/goodsList?cateId=504",
+            "ids": [504],
+            "id": 0
+          }
+        }
+      ]
+    }
+  ]
+}
