@@ -1,0 +1,182 @@
+{
+  "code": 12000,
+  "message": "",
+  "data": {
+    "banner": [
+      {
+        "url": "http://zhuanti.anlewo.com/publish/5f915a62a46eac45da85561f",
+        "name": "全屋大牌1价到底",
+        "img": "https://www.woimg.com/beego/cms/2020/10/4811b4afac97ee4c26428839e98f1d2e.jpg"
+      },
+      {
+        "url": "https://m.anlewo.com/special/518zhucaibao/index.html",
+        "name": "518",
+        "img": "https://www.woimg.com/beego/7ef88abcf29b07929ae6dfee15ca8dcb.jpg"
+      },
+      {
+        "url": "https://m.anlewo.com/special/998zhengzhuangbao/index.html",
+        "name": "998",
+        "img": "https://www.woimg.com/beego/4a0c35614085e3aa0ef7194fa9386f80.jpg"
+      },
+      {
+        "url": "https://m.anlewo.com/special/city_partner/",
+        "name": "合伙人",
+        "img": "https://www.woimg.com/beego/cms/2020/09/4d42311c40cbe99685d3e964b4026101.jpg"
+      }
+    ],
+    "nav": [
+      {
+        "name": "报价计算器",
+        "icon": "https://www.woimg.com/beego/feb687ad88d68d8cdc06bbddcf6d08c9.png",
+        "url": "https://m.anlewo.com/special/calculator/?statistics=",
+        "type": -1,
+        "uri": {
+          "kind": 1,
+          "url": "https://m.anlewo.com/special/calculator/?statistics=",
+          "id": 0,
+          "ids": []
+        }
+      },
+      {
+        "name": "建材商城",
+        "icon": "https://www.woimg.com/beego/0fac90da521de7b7fae4d874d75c3fee.jpg",
+        "url": "https://m.anlewo.com/shop/category?tab=0&nav=0",
+        "type": -1,
+        "uri": {
+          "kind": 1,
+          "url": "https://m.anlewo.com/shop/category?tab=0&nav=0",
+          "id": 0,
+          "ids": []
+        }
+      },
+      {
+        "name": "工艺间",
+        "icon": "https://www.woimg.com/beego/353c745681f07ab8b91b61e38906b08a.png",
+        "url": "http://www.anlewo.com/special/wap/2018/gongyijian/index.html",
+        "type": -1,
+        "uri": {
+          "kind": 1,
+          "url": "http://www.anlewo.com/special/wap/2018/gongyijian/index.html",
+          "id": 0,
+          "ids": []
+        }
+      },
+      {
+        "name": "窝知道",
+        "icon": "https://www.woimg.com/beego/c58dac0019fc356a8a7383c209d81059.png",
+        "url": "窝知道列表",
+        "type": 1,
+        "uri": { "kind": 5, "url": "窝知道列表", "id": 0, "ids": [] }
+      }
+    ],
+    "activity": [],
+    "packages": [
+      {
+        "id": 1,
+        "name": "图一",
+        "url": "https://m.anlewo.com/special/518zhucaibao/index.html",
+        "img": "https://www.woimg.com/beego/8fb7d286752a2bba71acfb37a344d698.jpg",
+        "type": {
+          "kind": 1,
+          "url": "https://m.anlewo.com/special/518zhucaibao/index.html",
+          "id": 1,
+          "ids": []
+        }
+      },
+      {
+        "id": 2,
+        "name": "图二",
+        "url": "https://m.anlewo.com/special/518zhucaibao/index.html",
+        "img": "",
+        "type": {
+          "kind": 1,
+          "url": "https://m.anlewo.com/special/518zhucaibao/index.html",
+          "id": 2,
+          "ids": []
+        }
+      },
+      {
+        "id": 3,
+        "name": "图三",
+        "url": "https://m.anlewo.com/special/998zhengzhuangbao/index.html?2019",
+        "img": "",
+        "type": {
+          "kind": 1,
+          "url": "https://m.anlewo.com/special/998zhengzhuangbao/index.html?2019",
+          "id": 3,
+          "ids": []
+        }
+      }
+    ],
+    "brand": {
+      "items": [
+        {
+          "id": 151,
+          "name": "诺贝尔瓷砖",
+          "logo": "https://www.woimg.com/beego/92fd72f3a4291902868a4a45654ab138.jpg"
+        },
+        {
+          "id": 206,
+          "name": "德国贝朗",
+          "logo": "https://www.woimg.com/beego/166ccae8e5d02bece3df4341ecf031e6.jpg"
+        },
+        {
+          "id": 149,
+          "name": "科勒卡丽",
+          "logo": "https://www.woimg.com/beego/1a19f696dbdf4b51023c2325ef9f141e.jpg"
+        },
+        {
+          "id": 89,
+          "name": "东鹏瓷砖",
+          "logo": "https://www.woimg.com/beego/c87056a527675d9197b8a40adf41fbdb.jpg"
+        },
+        {
+          "id": 109,
+          "name": "康E木门",
+          "logo": "https://www.woimg.com/beego/45c2b6cf65b854e60bf8b9168bed8635.jpg"
+        },
+        {
+          "id": 381,
+          "name": "美心",
+          "logo": "https://www.woimg.com/beego/cms/2020/07/935ac3e8b21deafb27adf4c95ee0a57f.jpg"
+        },
+        {
+          "id": 229,
+          "name": "圣象地板",
+          "logo": "https://www.woimg.com/beego/b29cf49ad0ef522f71c5830df108bad4.jpg"
+        },
+        {
+          "id": 113,
+          "name": "皮阿诺",
+          "logo": "https://www.woimg.com/beego/f71eb2718de93b3e8b02a590c565c916.jpg"
+        },
+        {
+          "id": 239,
+          "name": "金牌橱柜",
+          "logo": "https://www.woimg.com/beego/6453fe058cbf459fe477ea4a829bf20c.jpg"
+        },
+        {
+          "id": 290,
+          "name": "欧神诺",
+          "logo": "https://www.woimg.com/beego/0a89b53b96ebf9fc495a7cc63536d16b.jpg"
+        }
+      ],
+      "count": 127
+    },
+    "match": [
+      {
+        "title": "窝搭配装修案例赏析",
+        "img": "https://www.woimg.com/beego/394e4ae10cd353c797b6acb953c15fe1.jpg",
+        "url": "http://www.anlewo.com/special/wap/2018/match/index.html?2018",
+        "style": [
+          { "id": 2, "name": "现代简约" },
+          { "id": 3, "name": "新中式" }
+        ],
+        "scope": [
+          { "id": 1, "name": "客厅" },
+          { "id": 2, "name": "卧室" }
+        ]
+      }
+    ]
+  }
+}
