@@ -1,0 +1,751 @@
+{
+  "code": 12000,
+  "message": "",
+  "data": {
+    "items": [
+      {
+        "code": 442001100,
+        "name": "广东中山国美店 NO.0233",
+        "addr": "中山市石岐区大信南路1号国美电器",
+        "service": [
+          { "id": 1, "name": "拎包入住" },
+          { "id": 2, "name": "整装包" },
+          { "id": 3, "name": "主材包" },
+          { "id": 4, "name": "家具包" }
+        ],
+        "img": "https://www.woimg.com/beego/3ea3dc9c6ef21fb4dc20d119f1e734db.jpg",
+        "imgPC": "https://www.woimg.com/beego/7a6d9009be79ecf5809b21aab1074570.jpg",
+        "lng": "113.3834710",
+        "lat": "22.5333221",
+        "url3d": "",
+        "state": 6,
+        "stateName": "营业中"
+      },
+      {
+        "code": 440705001,
+        "name": "广东江门新会店 NO.0523",
+        "addr": "江门市新会区会城江会路18号5座",
+        "service": [
+          { "id": 2, "name": "整装包" },
+          { "id": 3, "name": "主材包" }
+        ],
+        "img": "https://www.woimg.com/beego/cms/2019/06/c166be30a8802f37eb1f625f91f0fc0f.jpg",
+        "imgPC": "https://www.woimg.com/beego/cms/2019/06/0be02d6a7a1e17af89dd27f73a73c7fe.jpg",
+        "lng": "113.0692610",
+        "lat": "22.5555690",
+        "url3d": "",
+        "state": 6,
+        "stateName": "营业中"
+      },
+      {
+        "code": 442020020,
+        "name": "广东中山沙溪店",
+        "addr": "中山市沙溪镇星宝路6号星宝明珠花园35栋1层国美电器内",
+        "service": [
+          { "id": 2, "name": "整装包" },
+          { "id": 3, "name": "主材包" }
+        ],
+        "img": "https://www.woimg.com/beego/cms/2020/07/68aae4ef0a93cd54085bc50f0ddea113.jpg",
+        "imgPC": "https://www.woimg.com/beego/cms/2020/07/e815889480ed7679e3fd6c28f33ef1a3.jpg",
+        "lng": "113.3272910",
+        "lat": "22.5242200",
+        "url3d": "",
+        "state": 6,
+        "stateName": "营业中"
+      },
+      {
+        "code": 442002003,
+        "name": "广东中山东区店 NO.0001",
+        "addr": "富湾东路美居产业园i栋",
+        "service": [
+          { "id": 1, "name": "拎包入住" },
+          { "id": 2, "name": "整装包" },
+          { "id": 3, "name": "主材包" },
+          { "id": 4, "name": "家具包" }
+        ],
+        "img": "https://www.woimg.com/beego/1da51ffd7b8c9edb2a64ce02abfcc866.jpg",
+        "imgPC": "https://www.woimg.com/beego/e0acbe53a9ebc6d4ff139fd18b794e0f.jpg",
+        "lng": "113.4042036",
+        "lat": "22.5261410",
+        "url3d": "",
+        "state": 6,
+        "stateName": "营业中"
+      },
+      {
+        "code": 442004145,
+        "name": "中山南区直营店",
+        "addr": "中山市南区永安一路大信星汇店二楼",
+        "service": [
+          { "id": 1, "name": "拎包入住" },
+          { "id": 2, "name": "整装包" },
+          { "id": 3, "name": "主材包" },
+          { "id": 4, "name": "家具包" }
+        ],
+        "img": "https://www.woimg.com/beego/61d182745ddc27489b3962ba6d227c2f.jpg",
+        "imgPC": "https://www.woimg.com/beego/77628706b71f15592ff27a6b0a3cd3ab.jpg",
+        "lng": "113.3610608",
+        "lat": "22.4832871",
+        "url3d": "http://720jia.com/tour/8fcfa52feff89e39",
+        "state": 6,
+        "stateName": "营业中"
+      },
+      {
+        "code": 441202017,
+        "name": "广东肇庆端州店 NO.0368",
+        "addr": "肇庆市端州区116区东岗路南侧凤岗商业楼C座三层",
+        "service": [
+          { "id": 2, "name": "整装包" },
+          { "id": 3, "name": "主材包" }
+        ],
+        "img": "https://www.woimg.com/beego/cac9275ab451815787357ea37f16fa27.jpg",
+        "imgPC": "https://www.woimg.com/beego/6a8763a997a1e3075df31385c90cffcc.jpg",
+        "lng": "112.5057770",
+        "lat": "23.0948971",
+        "url3d": "",
+        "state": 6,
+        "stateName": "营业中"
+      },
+      {
+        "code": 442021154,
+        "name": "广东中山三乡店",
+        "addr": "中山市三乡镇景观大道8号富和名都花园1071号",
+        "service": [
+          { "id": 2, "name": "整装包" },
+          { "id": 3, "name": "主材包" }
+        ],
+        "img": "https://www.woimg.com/beego/cms/2020/07/d1bfd9d515ccab8d14cfe46567e7cdee.jpg",
+        "imgPC": "https://www.woimg.com/beego/cms/2020/07/4a9842dfed91d1982ecb514cd61555e1.jpg",
+        "lng": "113.4490420",
+        "lat": "22.3647770",
+        "url3d": "",
+        "state": 6,
+        "stateName": "营业中"
+      },
+      {
+        "code": 442024001,
+        "name": "广东中山坦洲店 NO.0229",
+        "addr": "东城四季南门商铺115_119卡",
+        "service": [
+          { "id": 2, "name": "整装包" },
+          { "id": 3, "name": "主材包" }
+        ],
+        "img": "https://www.woimg.com/beego/88f811f8be2196b4fce8bdff4ce225bb.jpg",
+        "imgPC": "https://www.woimg.com/beego/773c3913dcb822f0f23f073b02acea1a.jpg",
+        "lng": "113.4919070",
+        "lat": "22.2620157",
+        "url3d": "",
+        "state": 6,
+        "stateName": "营业中"
+      },
+      {
+        "code": 440783149,
+        "name": " 广东江门开平店 NO.0136",
+        "addr": "广东省江门市开平市幕村路段29号2楼",
+        "service": [
+          { "id": 2, "name": "整装包" },
+          { "id": 3, "name": "主材包" }
+        ],
+        "img": "https://www.woimg.com/beego/09c56dbfd152bddf4e2f770d6a1affa0.jpg",
+        "imgPC": "https://www.woimg.com/beego/df7aab23ee1e6725326f2563ea378f85.jpg",
+        "lng": "112.6882445",
+        "lat": "22.3830223",
+        "url3d": "",
+        "state": 6,
+        "stateName": "营业中"
+      },
+      {
+        "code": 440403155,
+        "name": "广东珠海斗门店 NO.0139",
+        "addr": "珠海斗门区湖心路1878号1栋商业201",
+        "service": [
+          { "id": 2, "name": "整装包" },
+          { "id": 3, "name": "主材包" }
+        ],
+        "img": "https://www.woimg.com/beego/ac5b85449e2baf784373301161c6c552.jpg",
+        "imgPC": "https://www.woimg.com/beego/9ffcf1b84431fd7adcb61c26504b984c.jpg",
+        "lng": "113.3419368",
+        "lat": "22.1650050",
+        "url3d": "",
+        "state": 6,
+        "stateName": "营业中"
+      },
+      {
+        "code": 445302159,
+        "name": "广东云浮云城店 NO.0193",
+        "addr": "广东省云浮市云城区河滨西路大坑边建材城",
+        "service": [
+          { "id": 2, "name": "整装包" },
+          { "id": 3, "name": "主材包" }
+        ],
+        "img": "https://www.woimg.com/beego/8e369f75f00dc1b9e9e60763a23bc592.jpg",
+        "imgPC": "https://www.woimg.com/beego/58762c8541a301df03bb0c8d9b0b587b.jpg",
+        "lng": "112.0323208",
+        "lat": "22.9303844",
+        "url3d": "",
+        "state": 6,
+        "stateName": "营业中"
+      },
+      {
+        "code": 441323117,
+        "name": "广东惠州惠东店 NO.0129",
+        "addr": "广东广东省惠州市惠东县平山镇华侨城侨强路A17－19（御府中央对面）",
+        "service": [
+          { "id": 2, "name": "整装包" },
+          { "id": 3, "name": "主材包" }
+        ],
+        "img": "https://www.woimg.com/beego/302208bcffcb46d2748e0331c814b9a9.jpg",
+        "imgPC": "https://www.woimg.com/beego/ce3b84e7a830d0ec27210d1137b8f45d.jpg",
+        "lng": "114.7115802",
+        "lat": "22.9757750",
+        "url3d": "",
+        "state": 6,
+        "stateName": "营业中"
+      },
+      {
+        "code": 441602001,
+        "name": "广东河源源城店 NO.0220",
+        "addr": "建设大道218号万隆城负一楼B1005/1006",
+        "service": [
+          { "id": 2, "name": "整装包" },
+          { "id": 3, "name": "主材包" }
+        ],
+        "img": "https://www.woimg.com/beego/ea319a2d8ccbd197a080319819b89a9b.jpg",
+        "imgPC": "https://www.woimg.com/beego/17323a458ae1e2f9b656afbd663d046d.jpg",
+        "lng": "114.7063696",
+        "lat": "23.7563298",
+        "url3d": "",
+        "state": 6,
+        "stateName": "营业中"
+      },
+      {
+        "code": 441621001,
+        "name": "广东河源紫金店 NO.0530",
+        "addr": "广东河源市紫金县附城镇城西管理区新华猪麻岭金山加油站对面安乐窝",
+        "service": [
+          { "id": 2, "name": "整装包" },
+          { "id": 3, "name": "主材包" }
+        ],
+        "img": "https://www.woimg.com/beego/cms/2019/07/3a1b18b91dcc8c7f1bca8fd66283babf.jpg",
+        "imgPC": "https://www.woimg.com/beego/cms/2019/07/b53b2021b3701b2e9d693fe104dc12f8.jpg",
+        "lng": "115.1818420",
+        "lat": "23.6391040",
+        "url3d": "",
+        "state": 6,
+        "stateName": "营业中"
+      },
+      {
+        "code": 441521113,
+        "name": "广东汕尾海丰店 NO.0166",
+        "addr": "三环南路永安达商铺E1",
+        "service": [
+          { "id": 2, "name": "整装包" },
+          { "id": 3, "name": "主材包" }
+        ],
+        "img": "https://www.woimg.com/beego/a514190858da7323eda14eb1188b39a3.jpg",
+        "imgPC": "https://www.woimg.com/beego/16b2676190a5696a8f11f3f2138dda5a.jpg",
+        "lng": "115.3351005",
+        "lat": "22.9514763",
+        "url3d": "",
+        "state": 6,
+        "stateName": "营业中"
+      },
+      {
+        "code": 441624001,
+        "name": "广东河源和平店 NO.0533",
+        "addr": "和平县东方国际二期72号铺安乐窝",
+        "service": [
+          { "id": 2, "name": "整装包" },
+          { "id": 3, "name": "主材包" }
+        ],
+        "img": "https://www.woimg.com/beego/cms/2019/07/1f109a6b93824bb9bb75ad66576efe2e.jpg",
+        "imgPC": "https://www.woimg.com/beego/cms/2019/07/f93607406985c6037116b359ae6511e5.jpg",
+        "lng": "114.9312550",
+        "lat": "24.4546470",
+        "url3d": "",
+        "state": 6,
+        "stateName": "营业中"
+      },
+      {
+        "code": 450481001,
+        "name": "广西梧州岑溪店 NO.0303",
+        "addr": "岑溪市义洲大道668号探花车站院子内",
+        "service": [
+          { "id": 2, "name": "整装包" },
+          { "id": 3, "name": "主材包" }
+        ],
+        "img": "https://www.woimg.com/beego/9b163df2b69641ce05d83216f32c1c56.jpg",
+        "imgPC": "https://www.woimg.com/beego/6f7116b4abfce0fa41103d65e2ab39b5.jpg",
+        "lng": "111.0170659",
+        "lat": "22.9040579",
+        "url3d": "",
+        "state": 6,
+        "stateName": "营业中"
+      },
+      {
+        "code": 450422001,
+        "name": "广西梧州藤县店 NO.0311",
+        "addr": "藤州镇河西杉木冲万景佳园安乐窝（福利院斜对面）",
+        "service": [
+          { "id": 2, "name": "整装包" },
+          { "id": 3, "name": "主材包" }
+        ],
+        "img": "https://www.woimg.com/beego/91cba6b855ad3568bca5f46de206e31e.jpg",
+        "imgPC": "https://www.woimg.com/beego/a03fe3790e94ceafee2eac9a67848792.jpg",
+        "lng": "110.9313170",
+        "lat": "23.3745100",
+        "url3d": "",
+        "state": 6,
+        "stateName": "营业中"
+      },
+      {
+        "code": 360727001,
+        "name": "江西赣州龙南店 NO.0182",
+        "addr": "龙南县解放东路与光明路交叉口",
+        "service": [
+          { "id": 2, "name": "整装包" },
+          { "id": 3, "name": "主材包" }
+        ],
+        "img": "https://www.woimg.com/beego/f2744f5112a0832b25630bb632d861bc.jpg",
+        "imgPC": "https://www.woimg.com/beego/b23669d23767024b0d63f888b4a17b67.jpg",
+        "lng": "114.8150892",
+        "lat": "24.9088193",
+        "url3d": "",
+        "state": 6,
+        "stateName": "营业中"
+      },
+      {
+        "code": 431022139,
+        "name": "湖南郴州宜章店 NO.0130",
+        "addr": "湖南省郴州市宜章县玉溪南京东路保盛·幸福城B区2栋202号",
+        "service": [
+          { "id": 2, "name": "整装包" },
+          { "id": 3, "name": "主材包" }
+        ],
+        "img": "https://www.woimg.com/beego/3fc634434c44b640e93131ae4966e949.jpg",
+        "imgPC": "https://www.woimg.com/beego/ceb5836c7f143bc905234ed90c2dc556.jpg",
+        "lng": "112.9550166",
+        "lat": "25.3876465",
+        "url3d": "",
+        "state": 6,
+        "stateName": "营业中"
+      },
+      {
+        "code": 360723001,
+        "name": "江西赣州大余店 NO.0313",
+        "addr": "国际商贸城3号楼安乐窝",
+        "service": [
+          { "id": 2, "name": "整装包" },
+          { "id": 3, "name": "主材包" }
+        ],
+        "img": "https://www.woimg.com/beego/5a58e5b61f670174055e47ede0b3a8a7.jpg",
+        "imgPC": "https://www.woimg.com/beego/a1515bedc70631c39914d74cb75f9d14.jpg",
+        "lng": "114.3680280",
+        "lat": "25.4006800",
+        "url3d": "",
+        "state": 6,
+        "stateName": "营业中"
+      },
+      {
+        "code": 440981001,
+        "name": "广东茂名高州店 NO.0230",
+        "addr": "桂圆路桂华名苑",
+        "service": [
+          { "id": 2, "name": "整装包" },
+          { "id": 3, "name": "主材包" }
+        ],
+        "img": "https://www.woimg.com/beego/7030a7a67dbdbb3f600d37c154f7c963.jpg",
+        "imgPC": "https://www.woimg.com/beego/3b71fbceb518586254bac33156555d52.jpg",
+        "lng": "110.8546932",
+        "lat": "21.9028099",
+        "url3d": "",
+        "state": 6,
+        "stateName": "营业中"
+      },
+      {
+        "code": 431003101,
+        "name": "湖南郴州苏仙店 NO.0556",
+        "addr": "湖南省郴州市亿力国际广场2楼安乐窝",
+        "service": [
+          { "id": 2, "name": "整装包" },
+          { "id": 3, "name": "主材包" }
+        ],
+        "img": "https://www.woimg.com/beego/cms/2019/08/18c0199265ef601ea07efa1d354c6d26.jpg",
+        "imgPC": "https://www.woimg.com/beego/cms/2019/08/ec7878c359cbf599d856a971964ac957.jpg",
+        "lng": "113.0424410",
+        "lat": "25.8003700",
+        "url3d": "",
+        "state": 6,
+        "stateName": "营业中"
+      },
+      {
+        "code": 445281154,
+        "name": "广东揭阳普宁店 NO.0260",
+        "addr": "广东省揭阳市普宁市流沙东埔大圆往沙头680米处",
+        "service": [
+          { "id": 2, "name": "整装包" },
+          { "id": 3, "name": "主材包" }
+        ],
+        "img": "https://www.woimg.com/beego/aa74bd4f3681d9b6a8feb1d14df7b187.jpg",
+        "imgPC": "https://www.woimg.com/beego/b87d3c46756fc99b6d3c3c4dcaec5a55.jpg",
+        "lng": "116.2026730",
+        "lat": "23.2931780",
+        "url3d": "",
+        "state": 6,
+        "stateName": "营业中"
+      },
+      {
+        "code": 431126001,
+        "name": "湖南永州宁远店 NO.0360",
+        "addr": "湖南省永州市江永县环城南路山语湖一楼门面",
+        "service": [
+          { "id": 2, "name": "整装包" },
+          { "id": 3, "name": "主材包" }
+        ],
+        "img": "https://www.woimg.com/beego/96039a0a3f753e2b9c66ddce77a08912.jpg",
+        "imgPC": "https://www.woimg.com/beego/cb52a40f8c061d44848106aab60022ad.jpg",
+        "lng": "111.9458050",
+        "lat": "25.5709760",
+        "url3d": "",
+        "state": 6,
+        "stateName": "营业中"
+      },
+      {
+        "code": 360726001,
+        "name": "江西赣州安远店 NO.0292",
+        "addr": "安远大道新法院斜对面安乐窝",
+        "service": [
+          { "id": 2, "name": "整装包" },
+          { "id": 3, "name": "主材包" }
+        ],
+        "img": "https://www.woimg.com/beego/9aebcb76d0cf9d9cfee21ffbbfbc849d.jpg",
+        "imgPC": "https://www.woimg.com/beego/b042e8f7100aa09b607b773cb3d7768a.jpg",
+        "lng": "115.3869132",
+        "lat": "25.1261574",
+        "url3d": "",
+        "state": 6,
+        "stateName": "营业中"
+      },
+      {
+        "code": 445224001,
+        "name": "广东揭阳惠来店 NO.0282",
+        "addr": "惠城镇南环一路益寿综合楼",
+        "service": [
+          { "id": 2, "name": "整装包" },
+          { "id": 3, "name": "主材包" }
+        ],
+        "img": "https://www.woimg.com/beego/e4cd56c7f0989789aa4bdd92f0700ef9.jpg",
+        "imgPC": "https://www.woimg.com/beego/0b884b37313408505e7115426196baae.jpg",
+        "lng": "116.3069790",
+        "lat": "23.0246892",
+        "url3d": "",
+        "state": 6,
+        "stateName": "营业中"
+      },
+      {
+        "code": 440982001,
+        "name": " 广东茂名化州店 NO.0183",
+        "addr": "北京东三路中国电信大厦旁安乐窝整装",
+        "service": [
+          { "id": 2, "name": "整装包" },
+          { "id": 3, "name": "主材包" }
+        ],
+        "img": "https://www.woimg.com/beego/3f97c1f0031eefc3f3213dcefa966cc1.jpg",
+        "imgPC": "https://www.woimg.com/beego/8514bce11465893413b8bc6b47cc4ff6.jpg",
+        "lng": "110.6289716",
+        "lat": "21.6624110",
+        "url3d": "",
+        "state": 6,
+        "stateName": "营业中"
+      },
+      {
+        "code": 450321001,
+        "name": "广西桂林阳朔店 NO.0263",
+        "addr": "山水大道建材汽修市场C区1号",
+        "service": [
+          { "id": 2, "name": "整装包" },
+          { "id": 3, "name": "主材包" }
+        ],
+        "img": "https://www.woimg.com/beego/5f7be401ba0511d8be87ddeb5b2471e2.jpg",
+        "imgPC": "https://www.woimg.com/beego/fba918164066075f7e998b486034a5ba.jpg",
+        "lng": "110.5119704",
+        "lat": "24.7497312",
+        "url3d": "",
+        "state": 6,
+        "stateName": "营业中"
+      },
+      {
+        "code": 360733148,
+        "name": "江西赣州会昌店 NO.0199",
+        "addr": "会昌县月亮湾新区高盛国际店铺3-103A",
+        "service": [
+          { "id": 2, "name": "整装包" },
+          { "id": 3, "name": "主材包" }
+        ],
+        "img": "https://www.woimg.com/beego/ae6f7b9c065b05532c6fce2ffe4ba7fa.jpg",
+        "imgPC": "https://www.woimg.com/beego/57000dd4fc479b2acbf0d5d633a9e6cd.jpg",
+        "lng": "115.8117118",
+        "lat": "25.5880696",
+        "url3d": "",
+        "state": 6,
+        "stateName": "营业中"
+      },
+      {
+        "code": 360731001,
+        "name": "江西赣州于都店 NO.0339",
+        "addr": "贡江镇金山大道安乐窝建材超市（龙门院子售楼部对面）",
+        "service": [
+          { "id": 2, "name": "整装包" },
+          { "id": 3, "name": "主材包" }
+        ],
+        "img": "https://www.woimg.com/beego/7c5ca4985f1e4fba565ac6530c47d26b.jpg",
+        "imgPC": "https://www.woimg.com/beego/590c719837f63fc80c80af52f5455061.jpg",
+        "lng": "115.4005810",
+        "lat": "25.9467950",
+        "url3d": "",
+        "state": 6,
+        "stateName": "营业中"
+      },
+      {
+        "code": 450302001,
+        "name": "广西桂林秀峰店 NO.0583",
+        "addr": "东安路206号丽景公寓2层",
+        "service": [
+          { "id": 2, "name": "整装包" },
+          { "id": 3, "name": "主材包" }
+        ],
+        "img": "https://www.woimg.com/beego/cms/2019/10/4146c5f17c0590fef9599411017a32ad.jpg",
+        "imgPC": "https://www.woimg.com/beego/cms/2019/10/77ca993b0120d556a1fa9be259788c11.jpg",
+        "lng": "110.2719860",
+        "lat": "25.2683020",
+        "url3d": "",
+        "state": 5,
+        "stateName": "装修中"
+      },
+      {
+        "code": 350624001,
+        "name": "福建漳州诏安店",
+        "addr": "福建省漳州市诏安县尚水名都D02",
+        "service": [
+          { "id": 2, "name": "整装包" },
+          { "id": 3, "name": "主材包" }
+        ],
+        "img": "https://www.woimg.com/beego/cms/2019/10/5f70346993020083419ede16556550d2.jpg",
+        "imgPC": "https://www.woimg.com/beego/cms/2019/10/76a01dad1cc3e72131be06b46a0becb0.jpg",
+        "lng": "117.1788990",
+        "lat": "23.7169070",
+        "url3d": "",
+        "state": 6,
+        "stateName": "营业中"
+      },
+      {
+        "code": 431103001,
+        "name": "湖南永州冷水滩店 NO.0522",
+        "addr": "湖南省永州市冷水滩区竹塘街103正东方向30米",
+        "service": [
+          { "id": 2, "name": "整装包" },
+          { "id": 3, "name": "主材包" }
+        ],
+        "img": "https://www.woimg.com/beego/cms/2019/05/2d64710b39f35cc9deb846b9d072820b.jpg",
+        "imgPC": "https://www.woimg.com/beego/cms/2019/05/5e61f7cda27ee48bf43e5d930e2d04a2.jpg",
+        "lng": "111.6259850",
+        "lat": "26.4290900",
+        "url3d": "",
+        "state": 6,
+        "stateName": "营业中"
+      },
+      {
+        "code": 360732001,
+        "name": "江西赣州兴国店 NO.0218",
+        "addr": "将军大道南段B47栋6、7号商铺",
+        "service": [
+          { "id": 2, "name": "整装包" },
+          { "id": 3, "name": "主材包" }
+        ],
+        "img": "https://www.woimg.com/beego/2409bce70474f3119e35c536d1a2ed48.jpg",
+        "imgPC": "https://www.woimg.com/beego/44a20a8111421f37c43603f882703fb0.jpg",
+        "lng": "115.3469361",
+        "lat": "26.3122072",
+        "url3d": "",
+        "state": 6,
+        "stateName": "营业中"
+      },
+      {
+        "code": 360881104,
+        "name": "江西吉安井冈山店 NO.0018",
+        "addr": "江西省井冈山市新城区八面山大道88号（煌庭酒店斜对面）",
+        "service": [
+          { "id": 2, "name": "整装包" },
+          { "id": 3, "name": "主材包" }
+        ],
+        "img": "https://www.woimg.com/beego/2d4ac04c33a7a7899b1132421669d928.jpg",
+        "imgPC": "https://www.woimg.com/beego/40a91fd6a837f6deafa860042df6e6f3.jpg",
+        "lng": "114.2867472",
+        "lat": "26.7415290",
+        "url3d": "",
+        "state": 6,
+        "stateName": "营业中"
+      },
+      {
+        "code": 430408042,
+        "name": "湖南衡阳蒸湘店 NO.0031",
+        "addr": "衡阳市蒸湘区一环西路日鑫建材市场B7-B8栋",
+        "service": [
+          { "id": 2, "name": "整装包" },
+          { "id": 3, "name": "主材包" }
+        ],
+        "img": "https://www.woimg.com/beego/d6a526b94d36f4926e3a0db88320290a.jpg",
+        "imgPC": "https://www.woimg.com/beego/c18b3bd9149368077e6a2f4324e3e147.jpg",
+        "lng": "112.5763190",
+        "lat": "26.8843700",
+        "url3d": "",
+        "state": 6,
+        "stateName": "营业中"
+      },
+      {
+        "code": 350626001,
+        "name": "福建漳州东山店 NO.0519",
+        "addr": "福建省漳州市东山区西埔镇龙光家具一楼",
+        "service": [
+          { "id": 2, "name": "整装包" },
+          { "id": 3, "name": "主材包" }
+        ],
+        "img": "https://www.woimg.com/beego/6bfc1fc55f3ecfe2e339a54f7552b037.jpg",
+        "imgPC": "https://www.woimg.com/beego/6226b8be114a2d42541c3ddaa03d5cc3.jpg",
+        "lng": "117.4263500",
+        "lat": "23.7108400",
+        "url3d": "https://720yun.com/t/15vknb8ws8h?scene_id=32381053",
+        "state": 6,
+        "stateName": "营业中"
+      },
+      {
+        "code": 360826001,
+        "name": "江西吉安泰和店 NO.0369",
+        "addr": "国兴建材城C1栋",
+        "service": [
+          { "id": 2, "name": "整装包" },
+          { "id": 3, "name": "主材包" }
+        ],
+        "img": "https://www.woimg.com/beego/57b9bcb6c6227f91d0fabe4a2a3542bf.jpg",
+        "imgPC": "https://www.woimg.com/beego/aa3db648b0ec865eef11cf5d5d36e89f.jpg",
+        "lng": "114.9088690",
+        "lat": "26.7899600",
+        "url3d": "",
+        "state": 6,
+        "stateName": "营业中"
+      },
+      {
+        "code": 360830001,
+        "name": "江西吉安永新店 NO.0569",
+        "addr": "湘赣国际商贸城D栋D8-D11",
+        "service": [
+          { "id": 2, "name": "整装包" },
+          { "id": 3, "name": "主材包" }
+        ],
+        "img": "https://www.woimg.com/beego/cms/2019/09/079cc079018360a6294b3c7b35939d3e.jpg",
+        "imgPC": "https://www.woimg.com/beego/cms/2019/09/faf207ef2f66ce9232836219a4d2d4c1.jpg",
+        "lng": "114.2603980",
+        "lat": "26.9851690",
+        "url3d": "",
+        "state": 6,
+        "stateName": "营业中"
+      },
+      {
+        "code": 440825001,
+        "name": "广东湛江徐闻店 NO.0316",
+        "addr": "徐闻新都汇商场4栋二楼整层",
+        "service": [
+          { "id": 2, "name": "整装包" },
+          { "id": 3, "name": "主材包" }
+        ],
+        "img": "https://www.woimg.com/beego/1621e110bd69c5f1166ec9a61f96ccd4.jpg",
+        "imgPC": "https://www.woimg.com/beego/5819275bee5d05aa0da6a1d702d333ea.jpg",
+        "lng": "110.1767500",
+        "lat": "20.3254890",
+        "url3d": "",
+        "state": 6,
+        "stateName": "营业中"
+      },
+      {
+        "code": 350623001,
+        "name": "福建漳州漳浦店 NO.0288",
+        "addr": "福建省漳浦县绥安镇龙湖大道9-1号",
+        "service": [
+          { "id": 2, "name": "整装包" },
+          { "id": 3, "name": "主材包" }
+        ],
+        "img": "https://www.woimg.com/beego/ab29b9a328c0a6a5b41cfbd97c40968f.jpg",
+        "imgPC": "https://www.woimg.com/beego/14a2b60333b0a96177c9821f5a71ec67.jpg",
+        "lng": "117.6103306",
+        "lat": "24.1113761",
+        "url3d": "",
+        "state": 6,
+        "stateName": "营业中"
+      },
+      {
+        "code": 460106094,
+        "name": "海南海口龙华店 NO.0212",
+        "addr": "西沙路富源商厦一鸿盛装饰",
+        "service": [
+          { "id": 2, "name": "整装包" },
+          { "id": 3, "name": "主材包" }
+        ],
+        "img": "https://www.woimg.com/beego/cebe8118167cd8d897eb2c5d11df1c0a.jpg",
+        "imgPC": "https://www.woimg.com/beego/861abe51768462a1598c004a1c35e125.jpg",
+        "lng": "110.3350138",
+        "lat": "20.0198473",
+        "url3d": "",
+        "state": 6,
+        "stateName": "营业中"
+      },
+      {
+        "code": 360730001,
+        "name": "江西赣州宁都店 NO.0309",
+        "addr": "江西省赣州市宁都县幼儿园西侧东方名城3#A12",
+        "service": [
+          { "id": 2, "name": "整装包" },
+          { "id": 3, "name": "主材包" }
+        ],
+        "img": "https://www.woimg.com/beego/58ce0266afbc1e07f13c6cc80f70cdeb.jpg",
+        "imgPC": "https://www.woimg.com/beego/2e806b8e6f0016a592b71f78e15efb89.jpg",
+        "lng": "116.0076112",
+        "lat": "26.4801405",
+        "url3d": "",
+        "state": 6,
+        "stateName": "营业中"
+      },
+      {
+        "code": 360802011,
+        "name": "江西吉安吉州店 ",
+        "addr": "吉安市吉州区吉州大道239号馨悦家园23栋一号门面（四方圆加油站对面）0796-8310088",
+        "service": [
+          { "id": 2, "name": "整装包" },
+          { "id": 3, "name": "主材包" }
+        ],
+        "img": "https://www.woimg.com/beego/cfbf83b55cb42d66c15580f7c773edaa.jpg",
+        "imgPC": "https://www.woimg.com/beego/42d82ca6690cdd3111b91e5923b10aa9.jpg",
+        "lng": "114.9727372",
+        "lat": "27.1119033",
+        "url3d": "",
+        "state": 6,
+        "stateName": "营业中"
+      }
+    ],
+    "_links": {
+      "self": {
+        "href": "https://wap.woapi.net/v1/store?page=1&city=%E5%B9%BF%E5%B7%9E%E5%B8%82&per-page=9"
+      },
+      "next": {
+        "href": "https://wap.woapi.net/v1/store?page=2&city=%E5%B9%BF%E5%B7%9E%E5%B8%82&per-page=9"
+      },
+      "last": {
+        "href": "https://wap.woapi.net/v1/store?page=20&city=%E5%B9%BF%E5%B7%9E%E5%B8%82&per-page=9"
+      }
+    },
+    "_meta": {
+      "totalCount": 180,
+      "pageCount": 20,
+      "currentPage": 1,
+      "perPage": 9
+    }
+  }
+}
