@@ -1,0 +1,1334 @@
+{
+  "code": 12000,
+  "message": "",
+  "data": [
+    {
+      "_id": "0",
+      "banner": "https://www.woimg.com/beego/14fb0d2e582a1cea787c94ad3fae230c.jpg",
+      "brand": {
+        "cateId": 581,
+        "name": "推荐品牌",
+        "brand": [
+          {
+            "id": 343,
+            "name": "sto",
+            "logo": "https://www.woimg.com/beego/cms/2019/06/308b380c78d7e850720d4b36ad0e579a.png",
+            "cateId": 588
+          }
+        ]
+      },
+      "cate": {
+        "cateId": 581,
+        "name": "装修辅材",
+        "cate": [
+          {
+            "id": 582,
+            "name": "开关插座",
+            "logo": "http://www.woimg.com/beehive/2f89aeaef4839e688ecf1ad8d05d7528.png",
+            "cateId": 581,
+            "child": []
+          },
+          {
+            "id": 588,
+            "name": "涂刷辅材",
+            "logo": "http://www.woimg.com/beehive/49fa30a19d836643479d685c8408fd67.png",
+            "cateId": 581,
+            "child": []
+          },
+          {
+            "id": 589,
+            "name": "配电箱",
+            "logo": "http://www.woimg.com/beehive/b35907730f320a4e6cbd800deb1ecb19.png",
+            "cateId": 581,
+            "child": []
+          },
+          {
+            "id": 591,
+            "name": "网络产品",
+            "logo": "http://www.woimg.com/beehive/4c1fba9c5a614f95490b6d3e81d0c800.png",
+            "cateId": 581,
+            "child": [
+              {
+                "id": 592,
+                "name": "路由器",
+                "logo": "",
+                "cateId": 591,
+                "child": []
+              },
+              {
+                "id": 593,
+                "name": "网络配件",
+                "logo": "",
+                "cateId": 591,
+                "child": []
+              }
+            ]
+          },
+          {
+            "id": 594,
+            "name": "电线电缆",
+            "logo": "http://www.woimg.com/beehive/2dd5700d71e0c2979a6246bf3cdaa093.png",
+            "cateId": 581,
+            "child": [
+              {
+                "id": 595,
+                "name": "音响线",
+                "logo": "",
+                "cateId": 594,
+                "child": []
+              },
+              {
+                "id": 596,
+                "name": "网线",
+                "logo": "",
+                "cateId": 594,
+                "child": []
+              },
+              {
+                "id": 597,
+                "name": "电话线",
+                "logo": "",
+                "cateId": 594,
+                "child": []
+              },
+              {
+                "id": 598,
+                "name": "电视线",
+                "logo": "",
+                "cateId": 594,
+                "child": []
+              }
+            ]
+          },
+          {
+            "id": 599,
+            "name": "断路器",
+            "logo": "http://www.woimg.com/beehive/867acfec95ca9df5ea56899875129165.png",
+            "cateId": 581,
+            "child": []
+          },
+          {
+            "id": 600,
+            "name": "管材管件",
+            "logo": "http://www.woimg.com/beehive/c1fe7ad775e893e25ddd4e5cbf5f3ff2.png",
+            "cateId": 581,
+            "child": []
+          }
+        ]
+      }
+    },
+    {
+      "_id": "1",
+      "banner": "https://www.woimg.com/beego/7ab76dc57968bd80b71217c0a19b1c77.jpg",
+      "brand": {
+        "cateId": 334,
+        "name": "推荐品牌",
+        "brand": [
+          {
+            "id": 151,
+            "name": "诺贝尔瓷砖",
+            "logo": "https://www.woimg.com/beego/590a70b00d567312b91908111259e497.png",
+            "cateId": 334
+          },
+          {
+            "id": 89,
+            "name": "东鹏瓷砖",
+            "logo": "https://www.woimg.com/beego/8cddc545f3442a4c3ab3b3a17bf92e24.png",
+            "cateId": 334
+          },
+          {
+            "id": 229,
+            "name": "圣象地板",
+            "logo": "https://www.woimg.com/beego/4d955bc82613602af1e341a8e2c2a6ff.png",
+            "cateId": 336
+          },
+          {
+            "id": 290,
+            "name": "欧神诺",
+            "logo": "https://www.woimg.com/beego/8d47baeb8dae7a45c8b64f279e6e8ed8.png",
+            "cateId": 334
+          },
+          {
+            "id": 200,
+            "name": "大自然强化地板",
+            "logo": "https://www.woimg.com/beego/deaf1fd732949353e4a7aa51529f3a03.png",
+            "cateId": 336
+          },
+          {
+            "id": 201,
+            "name": "大自然实木复合地板",
+            "logo": "https://www.woimg.com/beego/deaf1fd732949353e4a7aa51529f3a03.png",
+            "cateId": 336
+          },
+          {
+            "id": 114,
+            "name": "特地陶瓷",
+            "logo": "https://www.woimg.com/beego/2795c8047ca6e078294d788ca7961e80.png",
+            "cateId": 334
+          },
+          {
+            "id": 203,
+            "name": "玛缇瓷砖",
+            "logo": "https://www.woimg.com/beego/71c0d70f468609ed117b1371357198a4.png",
+            "cateId": 335
+          },
+          {
+            "id": 220,
+            "name": "金意陶",
+            "logo": "https://www.woimg.com/beego/d90cdcd83e4fc17e8ffba6ce515f4915.png",
+            "cateId": 334
+          },
+          {
+            "id": 254,
+            "name": "新润成陶瓷",
+            "logo": "https://www.woimg.com/beego/1cea28304d5320bc835599798be5cdff.png",
+            "cateId": 335
+          },
+          {
+            "id": 256,
+            "name": "宝罗拉",
+            "logo": "https://www.woimg.com/beego/cms/2019/06/3fe975ee2041721ef14ba20883bbda27.png",
+            "cateId": 335
+          },
+          {
+            "id": 106,
+            "name": "亚细亚磁砖",
+            "logo": "https://www.woimg.com/beego/fff78102a8c7fc27b7f6b7802df054df.png",
+            "cateId": 335
+          },
+          {
+            "id": 257,
+            "name": "PRIMI",
+            "logo": "https://www.woimg.com/beego/fb9a7c58bf0ba20228e9c551aa9253bd.png",
+            "cateId": 335
+          },
+          {
+            "id": 189,
+            "name": "鹰牌陶瓷",
+            "logo": "https://www.woimg.com/beego/8867072ba602b0dc5612499ea7cb588a.png",
+            "cateId": 334
+          },
+          {
+            "id": 196,
+            "name": "楼兰陶瓷",
+            "logo": "https://www.woimg.com/beego/911ba0776893b288371a9bc1be32c8aa.png",
+            "cateId": 334
+          },
+          {
+            "id": 198,
+            "name": "KIKI",
+            "logo": "https://www.woimg.com/beego/b3a51a221e830acb235092e27ee9572f.png",
+            "cateId": 334
+          },
+          {
+            "id": 230,
+            "name": "皇磁瓷砖",
+            "logo": "https://www.woimg.com/beego/9ee64f42b6847c949032a20d8d7ae4f1.png",
+            "cateId": 334
+          },
+          {
+            "id": 199,
+            "name": "大自然实木地板",
+            "logo": "https://www.woimg.com/beego/deaf1fd732949353e4a7aa51529f3a03.png",
+            "cateId": 336
+          },
+          {
+            "id": 364,
+            "name": "菲林格尔",
+            "logo": "https://www.woimg.com/beego/cms/2020/02/16034be561d33909359bac3aebe3197c.png",
+            "cateId": 336
+          },
+          {
+            "id": 390,
+            "name": "大自然弹性地板",
+            "logo": "https://www.woimg.com/beego/deaf1fd732949353e4a7aa51529f3a03.png",
+            "cateId": 336
+          },
+          {
+            "id": 202,
+            "name": "宜华地板",
+            "logo": "https://www.woimg.com/beego/5172cad8855dbfd84e390ab8f320fc10.png",
+            "cateId": 336
+          },
+          {
+            "id": 115,
+            "name": "柏高地板",
+            "logo": "https://www.woimg.com/beego/2750d7d70ad3d2863234f272331e4ef7.png",
+            "cateId": 334
+          },
+          {
+            "id": 155,
+            "name": "倍康地板",
+            "logo": "https://www.woimg.com/beego/39c1f38b52c950a838e0801d41231604.png",
+            "cateId": 336
+          }
+        ]
+      },
+      "cate": {
+        "cateId": 334,
+        "name": "墙地面类",
+        "cate": [
+          {
+            "id": 335,
+            "name": "地砖",
+            "logo": "http://www.woimg.com/beehive/61358689ad0bf95b5110013467008929.png",
+            "cateId": 334,
+            "child": []
+          },
+          {
+            "id": 336,
+            "name": "木地板",
+            "logo": "http://www.woimg.com/beehive/fd9a9c7179e77e9baa4cd773287ea33b.png",
+            "cateId": 334,
+            "child": []
+          },
+          {
+            "id": 337,
+            "name": "墙地砖",
+            "logo": "http://www.woimg.com/beehive/6e20ea74c7a9337025f9c22328b74d5e.png",
+            "cateId": 334,
+            "child": []
+          },
+          {
+            "id": 362,
+            "name": "木地板踢脚线",
+            "logo": "http://www.woimg.com/beehive/38d621837a67e2426bef09ca815dc21f.png",
+            "cateId": 334,
+            "child": []
+          },
+          {
+            "id": 375,
+            "name": "瓷砖地脚线",
+            "logo": "http://www.woimg.com/beehive/39516535facc4c3856f9f56bfb00f4b6.png",
+            "cateId": 334,
+            "child": []
+          },
+          {
+            "id": 392,
+            "name": "花片",
+            "logo": "http://www.woimg.com/beehive/14f82de56ff0492bb6956a845ee79521.png",
+            "cateId": 334,
+            "child": []
+          },
+          {
+            "id": 393,
+            "name": "腰线",
+            "logo": "http://www.woimg.com/beehive/b73dc5ae4ad7f88965c9b035b1733a35.png",
+            "cateId": 334,
+            "child": []
+          },
+          {
+            "id": 396,
+            "name": "瓷砖波打线",
+            "logo": "http://www.woimg.com/beehive/fa390b182a143e58fa8a007ff599d046.png",
+            "cateId": 334,
+            "child": []
+          },
+          {
+            "id": 444,
+            "name": "木地板配件",
+            "logo": "http://www.woimg.com/beehive/08c2efe25dab980aaf973247d89206ba.png",
+            "cateId": 334,
+            "child": []
+          },
+          {
+            "id": 679,
+            "name": "金属地脚线",
+            "logo": "http://www.woimg.com/beehive/8eba48deeffe463eb067871a4ac31a46.png",
+            "cateId": 334,
+            "child": []
+          },
+          {
+            "id": 680,
+            "name": "金属配件",
+            "logo": "http://www.woimg.com/beehive/27216722d6c6078c713977e4f89f195f.png",
+            "cateId": 334,
+            "child": []
+          }
+        ]
+      }
+    },
+    {
+      "_id": "2",
+      "banner": "https://www.woimg.com/beego/f11a86741fc5bf9d0747c25a615a51d0.jpg",
+      "brand": {
+        "cateId": 338,
+        "name": "推荐品牌",
+        "brand": [
+          {
+            "id": 113,
+            "name": "皮阿诺",
+            "logo": "https://www.woimg.com/beego/bafb1950652f86b0bccc1e7d08a11965.png",
+            "cateId": 338
+          },
+          {
+            "id": 239,
+            "name": "金牌橱柜",
+            "logo": "https://www.woimg.com/beego/71029bac67111d871e4d041e3ad7f0c4.png",
+            "cateId": 339
+          },
+          {
+            "id": 205,
+            "name": "德国安住",
+            "logo": "https://www.woimg.com/beego/e7a44c24f9c237e9cf06e0864fbc7e46.png",
+            "cateId": 344
+          },
+          {
+            "id": 146,
+            "name": "大自然柯拉尼",
+            "logo": "https://www.woimg.com/beego/761da405236568600cf01f5c41bbe9dd.png",
+            "cateId": 339
+          },
+          {
+            "id": 221,
+            "name": "橱立方",
+            "logo": "https://www.woimg.com/beego/cms/2019/06/befdbba02e9103ac7e44d21546dfaecf.png",
+            "cateId": 339
+          }
+        ]
+      },
+      "cate": {
+        "cateId": 338,
+        "name": "厨房类",
+        "cate": [
+          {
+            "id": 339,
+            "name": "橱柜",
+            "logo": "http://www.woimg.com/beehive/fd35273a61b1e42b68b9abf4501bc7ad.png",
+            "cateId": 338,
+            "child": []
+          },
+          {
+            "id": 373,
+            "name": "厨房配件",
+            "logo": "http://www.woimg.com/beehive/450f3469bdd71a1a3227f99562284ee2.png",
+            "cateId": 338,
+            "child": []
+          }
+        ]
+      }
+    },
+    {
+      "_id": "3",
+      "banner": "https://www.woimg.com/beego/f38a970dbb72b9bbbc21d1e170b0b44f.jpg",
+      "brand": {
+        "cateId": 340,
+        "name": "推荐品牌",
+        "brand": [
+          {
+            "id": 109,
+            "name": "康E木门",
+            "logo": "https://www.woimg.com/beego/21a4001d4615bd4895f62e1b51636e89.png",
+            "cateId": 340
+          },
+          {
+            "id": 381,
+            "name": "美心",
+            "logo": "https://www.woimg.com/beego/cms/2020/05/01eb65bd60f72fec3ae0ebe65b86f494.jpg",
+            "cateId": 341
+          },
+          {
+            "id": 231,
+            "name": "圣堡罗",
+            "logo": "https://www.woimg.com/beego/45b4db24fb13b4b679190d8b08043a9a.png",
+            "cateId": 341
+          },
+          {
+            "id": 366,
+            "name": "霍尔茨",
+            "logo": "https://www.woimg.com/beego/cms/2020/03/901be39a6be4c23a7f23647bab26db5d.png",
+            "cateId": 341
+          },
+          {
+            "id": 166,
+            "name": "欧派门",
+            "logo": "https://www.woimg.com/beego/9e16ad4f929a37b76e939527ad414075.png",
+            "cateId": 340
+          },
+          {
+            "id": 232,
+            "name": "尚品本色",
+            "logo": "https://www.woimg.com/beego/57d58f26e686e38f5f654cec305229e5.png",
+            "cateId": 340
+          },
+          {
+            "id": 259,
+            "name": "千正木门",
+            "logo": "https://www.woimg.com/beego/6453269904ba5eef0f5d7400286c38fb.png",
+            "cateId": 341
+          },
+          {
+            "id": 222,
+            "name": "帕尔玛",
+            "logo": "https://www.woimg.com/beego/2ab570b07e61260a23d2cae8a086ab5d.png",
+            "cateId": 340
+          },
+          {
+            "id": 355,
+            "name": "德斯莱斯",
+            "logo": "https://www.woimg.com/beego/cms/2019/09/32db1020ee39ac33e5a49c0e373dc988.png",
+            "cateId": 342
+          },
+          {
+            "id": 233,
+            "name": "御鹏门窗",
+            "logo": "https://www.woimg.com/beego/9a47f759db003e178b81f8712c34e00a.png",
+            "cateId": 340
+          },
+          {
+            "id": 127,
+            "name": "名门锁业",
+            "logo": "https://www.woimg.com/beego/b1701c335b1a0c9203fb4d16bff5618f.png",
+            "cateId": 340
+          },
+          {
+            "id": 324,
+            "name": "雅丽斯",
+            "logo": "https://www.woimg.com/beego/cms/2020/08/b512016f70e1f8c3c398a49595e73e95.png",
+            "cateId": 582
+          }
+        ]
+      },
+      "cate": {
+        "cateId": 340,
+        "name": "门类",
+        "cate": [
+          {
+            "id": 341,
+            "name": "房门",
+            "logo": "http://www.woimg.com/beehive/85ce66e790f51f71f8d704701cbbdef5.png",
+            "cateId": 340,
+            "child": []
+          },
+          {
+            "id": 342,
+            "name": "卫生间门",
+            "logo": "http://www.woimg.com/beehive/eec0f19e9559833b70e6052a92a48b6d.png",
+            "cateId": 340,
+            "child": []
+          },
+          {
+            "id": 343,
+            "name": "厨房门",
+            "logo": "http://www.woimg.com/beehive/b61dab03c4b9c1c5f0f9f411032f3bab.png",
+            "cateId": 340,
+            "child": []
+          },
+          {
+            "id": 367,
+            "name": "门类配件",
+            "logo": "http://www.woimg.com/beehive/d98500b34f0d96149ccb26b00d2f2b6f.png",
+            "cateId": 340,
+            "child": [
+              {
+                "id": 365,
+                "name": "垭口套",
+                "logo": "",
+                "cateId": 367,
+                "child": []
+              },
+              {
+                "id": 368,
+                "name": "窗套",
+                "logo": "",
+                "cateId": 367,
+                "child": []
+              },
+              {
+                "id": 427,
+                "name": "门锁",
+                "logo": "",
+                "cateId": 367,
+                "child": []
+              },
+              {
+                "id": 428,
+                "name": "门吸",
+                "logo": "",
+                "cateId": 367,
+                "child": []
+              },
+              {
+                "id": 457,
+                "name": "合页",
+                "logo": "",
+                "cateId": 367,
+                "child": []
+              },
+              {
+                "id": 459,
+                "name": "导轨",
+                "logo": "",
+                "cateId": 367,
+                "child": []
+              },
+              {
+                "id": 460,
+                "name": "吊轮",
+                "logo": "",
+                "cateId": 367,
+                "child": []
+              },
+              {
+                "id": 475,
+                "name": "拉手",
+                "logo": "",
+                "cateId": 367,
+                "child": []
+              }
+            ]
+          },
+          {
+            "id": 683,
+            "name": "防盗门",
+            "logo": "http://www.woimg.com/beehive/4178f8ca2a23f82e5f7f1eb8989b9f55.png",
+            "cateId": 340,
+            "child": []
+          }
+        ]
+      }
+    },
+    {
+      "_id": "4",
+      "banner": "https://www.woimg.com/beego/181992c20c3c39f5a140f26c4abe00e5.jpg",
+      "brand": {
+        "cateId": 344,
+        "name": "推荐品牌",
+        "brand": [
+          {
+            "id": 206,
+            "name": "德国贝朗",
+            "logo": "https://www.woimg.com/beego/24516f85445826a07abf5c54d3e18ed7.png",
+            "cateId": 344
+          },
+          {
+            "id": 149,
+            "name": "科勒卡丽",
+            "logo": "https://www.woimg.com/beego/3a52f3ea8059b654e537533fb262b3e2.png",
+            "cateId": 344
+          },
+          {
+            "id": 217,
+            "name": "九牧",
+            "logo": "https://www.woimg.com/beego/94119b52742254ef761052fd550a6369.png",
+            "cateId": 0
+          },
+          {
+            "id": 351,
+            "name": "菲瑞",
+            "logo": "https://www.woimg.com/beego/cms/2019/08/49164a88a4cc33c996692a9ffd754a56.png",
+            "cateId": 349
+          },
+          {
+            "id": 207,
+            "name": "美标卫浴",
+            "logo": "https://www.woimg.com/beego/3f02df12fa3d7fcd4acf16a50c5d57dd.png",
+            "cateId": 344
+          },
+          {
+            "id": 103,
+            "name": "法恩莎",
+            "logo": "https://www.woimg.com/beego/cms/2020/10/ff4461d2785d8fcbdeea78c927777831.png",
+            "cateId": 344
+          },
+          {
+            "id": 122,
+            "name": "箭牌卫浴",
+            "logo": "https://www.woimg.com/beego/4f4d99247c48d773f7d2dacda3ae5c72.png",
+            "cateId": 344
+          },
+          {
+            "id": 101,
+            "name": "安华卫浴",
+            "logo": "https://www.woimg.com/beego/077fa078f2fd3dd1002c0202d3fdeb04.png",
+            "cateId": 344
+          },
+          {
+            "id": 137,
+            "name": "心海伽蓝",
+            "logo": "https://www.woimg.com/beego/fd0c7bcb2622610fbc04b3e67cfea6f4.png",
+            "cateId": 344
+          },
+          {
+            "id": 152,
+            "name": "科勒佳德",
+            "logo": "https://www.woimg.com/beego/6407aca038c3b10bba1f2968c1bf7660.png",
+            "cateId": 344
+          },
+          {
+            "id": 209,
+            "name": "卫欧卫浴",
+            "logo": "https://www.woimg.com/beego/555eb67555788a969df9486129b0f672.png",
+            "cateId": 348
+          },
+          {
+            "id": 214,
+            "name": "德加卫浴",
+            "logo": "https://www.woimg.com/beego/b790c60e65ebbbe0a4ef4c8ab8d6258c.png",
+            "cateId": 348
+          },
+          {
+            "id": 205,
+            "name": "德国安住",
+            "logo": "https://www.woimg.com/beego/e7a44c24f9c237e9cf06e0864fbc7e46.png",
+            "cateId": 344
+          },
+          {
+            "id": 132,
+            "name": "金海湾卫浴",
+            "logo": "https://www.woimg.com/beego/beeafdf137f579509ed85da25dc8f598.png",
+            "cateId": 349
+          },
+          {
+            "id": 104,
+            "name": "圣莉亚",
+            "logo": "https://www.woimg.com/beego/e5c230a2214876e09bcbd73e67b2f4db.png",
+            "cateId": 344
+          }
+        ]
+      },
+      "cate": {
+        "cateId": 344,
+        "name": "洁具/卫浴",
+        "cate": [
+          {
+            "id": 347,
+            "name": "马桶",
+            "logo": "http://www.woimg.com/beehive/72710313ef37476236e2d5fd51aa44ac.png",
+            "cateId": 344,
+            "child": []
+          },
+          {
+            "id": 348,
+            "name": "浴室柜",
+            "logo": "http://www.woimg.com/beehive/e167bb7c1d8cbb02ddf9d93f474ef8c1.png",
+            "cateId": 344,
+            "child": []
+          },
+          {
+            "id": 349,
+            "name": "定制淋浴房",
+            "logo": "http://www.woimg.com/beehive/88a57faa5d5d7b8de2c1c21d426c3799.png",
+            "cateId": 344,
+            "child": []
+          },
+          {
+            "id": 351,
+            "name": "花洒",
+            "logo": "http://www.woimg.com/beehive/c2b32f0db26f2270cecaddec31063b7a.png",
+            "cateId": 344,
+            "child": []
+          },
+          {
+            "id": 360,
+            "name": "柱盆",
+            "logo": "http://www.woimg.com/beehive/603ba840b188836c7be69412990ce2b6.png",
+            "cateId": 344,
+            "child": []
+          },
+          {
+            "id": 361,
+            "name": "蹲厕",
+            "logo": "http://www.woimg.com/beehive/4ed861e69b37995c97e80b23e206d55a.png",
+            "cateId": 344,
+            "child": []
+          },
+          {
+            "id": 363,
+            "name": "卫浴五金",
+            "logo": "http://www.woimg.com/beehive/cc7f9a6b8a7ed184b9610e40ea75f586.png",
+            "cateId": 344,
+            "child": [
+              {
+                "id": 421,
+                "name": "龙头套装",
+                "logo": "",
+                "cateId": 363,
+                "child": []
+              },
+              {
+                "id": 422,
+                "name": "卫浴挂件",
+                "logo": "",
+                "cateId": 363,
+                "child": []
+              },
+              {
+                "id": 423,
+                "name": "角阀",
+                "logo": "",
+                "cateId": 363,
+                "child": []
+              },
+              {
+                "id": 424,
+                "name": "地漏",
+                "logo": "",
+                "cateId": 363,
+                "child": []
+              },
+              {
+                "id": 426,
+                "name": "编织管",
+                "logo": "",
+                "cateId": 363,
+                "child": []
+              },
+              {
+                "id": 456,
+                "name": "角线篮",
+                "logo": "",
+                "cateId": 363,
+                "child": []
+              },
+              {
+                "id": 469,
+                "name": "其它龙头",
+                "logo": "",
+                "cateId": 363,
+                "child": []
+              }
+            ]
+          },
+          {
+            "id": 374,
+            "name": "小便器",
+            "logo": "http://www.woimg.com/beehive/ff670f6764bad0cefd93eaf623519870.png",
+            "cateId": 344,
+            "child": []
+          },
+          {
+            "id": 455,
+            "name": "洗衣机柜",
+            "logo": "http://www.woimg.com/beehive/c5f113795e87c4fb268d52d2a8c49a84.png",
+            "cateId": 344,
+            "child": []
+          },
+          {
+            "id": 465,
+            "name": "智能盖板",
+            "logo": "http://www.woimg.com/beehive/b5bcc246af3e0081df35299b047d20e9.png",
+            "cateId": 344,
+            "child": []
+          },
+          {
+            "id": 467,
+            "name": "浴缸",
+            "logo": "http://www.woimg.com/beehive/3075e00ad173199e561bfe40d89c4515.png",
+            "cateId": 344,
+            "child": []
+          },
+          {
+            "id": 583,
+            "name": "地拖盆",
+            "logo": "http://www.woimg.com/beehive/9d48559439471daa9892390b3878aa06.png",
+            "cateId": 344,
+            "child": []
+          },
+          {
+            "id": 585,
+            "name": "小便器配件",
+            "logo": "http://www.woimg.com/beehive/193405f3635868243f2ab49149f09180.png",
+            "cateId": 344,
+            "child": []
+          },
+          {
+            "id": 586,
+            "name": "侧柜",
+            "logo": "http://www.woimg.com/beehive/0194d0103dc14f4cec4a1e198c0cf573.png",
+            "cateId": 344,
+            "child": []
+          },
+          {
+            "id": 635,
+            "name": "标准淋浴房",
+            "logo": "http://www.woimg.com/beehive/88a57faa5d5d7b8de2c1c21d426c3799.png",
+            "cateId": 344,
+            "child": []
+          }
+        ]
+      }
+    },
+    {
+      "_id": "5",
+      "banner": "https://www.woimg.com/beego/c5b24bf70aa679fa0ac2aeadb9d13681.jpg",
+      "brand": {
+        "cateId": 352,
+        "name": "推荐品牌",
+        "brand": [
+          {
+            "id": 126,
+            "name": "友邦集成吊顶",
+            "logo": "https://www.woimg.com/beego/ec06a652b74857335de5e9b97265a44e.png",
+            "cateId": 353
+          },
+          {
+            "id": 135,
+            "name": "奥普",
+            "logo": "https://www.woimg.com/beego/3a86c94441d193d16df60b6f1f19fc8a.png",
+            "cateId": 352
+          },
+          {
+            "id": 118,
+            "name": "美赫吊顶",
+            "logo": "https://www.woimg.com/beego/02a29a590223a81d416ebee51ebb9d5c.png",
+            "cateId": 353
+          },
+          {
+            "id": 119,
+            "name": "艾弗莱",
+            "logo": "https://www.woimg.com/beego/4a512171e264ca7c84814ac86dec9f7f.png",
+            "cateId": 352
+          },
+          {
+            "id": 228,
+            "name": "三雄极光",
+            "logo": "https://www.woimg.com/beego/c63bf7c4cda063fbba08c98ca6345f32.png",
+            "cateId": 429
+          }
+        ]
+      },
+      "cate": {
+        "cateId": 352,
+        "name": "集成吊顶",
+        "cate": [
+          {
+            "id": 353,
+            "name": "吊顶",
+            "logo": "http://www.woimg.com/beehive/48e19204ac8785ab48de9defa69e46bc.png",
+            "cateId": 352,
+            "child": []
+          },
+          {
+            "id": 372,
+            "name": "吊顶配件",
+            "logo": "http://www.woimg.com/beehive/f357cdefddee0b6788872be6cace091e.png",
+            "cateId": 352,
+            "child": [
+              {
+                "id": 429,
+                "name": "灯具",
+                "logo": "",
+                "cateId": 372,
+                "child": []
+              },
+              {
+                "id": 430,
+                "name": "浴霸/风暖",
+                "logo": "",
+                "cateId": 372,
+                "child": []
+              },
+              {
+                "id": 431,
+                "name": "吊顶辅料",
+                "logo": "",
+                "cateId": 372,
+                "child": []
+              },
+              {
+                "id": 438,
+                "name": "装饰条",
+                "logo": "",
+                "cateId": 372,
+                "child": []
+              }
+            ]
+          },
+          {
+            "id": 685,
+            "name": "蜂窝板",
+            "logo": "http://www.woimg.com/beehive/d831129edcb579229dd81cba40c5b10a.png",
+            "cateId": 352,
+            "child": []
+          }
+        ]
+      }
+    },
+    {
+      "_id": "6",
+      "banner": "https://www.woimg.com/beego/10c27e28c360d1f3dc19c36891faf466.jpg",
+      "brand": {
+        "cateId": 432,
+        "name": "推荐品牌",
+        "brand": [
+          {
+            "id": 165,
+            "name": "方太",
+            "logo": "https://www.woimg.com/beego/293388e763a0f02ddc7b00aafce93ba9.png",
+            "cateId": 373
+          },
+          {
+            "id": 218,
+            "name": "美的",
+            "logo": "https://www.woimg.com/beego/7750a0bc012c6a82b9abe4a26490bf13.png",
+            "cateId": 433
+          },
+          {
+            "id": 235,
+            "name": "华帝",
+            "logo": "https://www.woimg.com/beego/36be2355506c28d3cca5b4022997068e.png",
+            "cateId": 432
+          }
+        ]
+      },
+      "cate": {
+        "cateId": 432,
+        "name": "电器",
+        "cate": [
+          {
+            "id": 485,
+            "name": "烟灶套装",
+            "logo": "http://www.woimg.com/beehive/122b6d0fc71046cc408758feb0f39ec8.png",
+            "cateId": 432,
+            "child": []
+          },
+          {
+            "id": 486,
+            "name": "油烟机",
+            "logo": "http://www.woimg.com/beehive/ddceadc6861ad929dc43ff09121d0de2.png",
+            "cateId": 432,
+            "child": []
+          },
+          {
+            "id": 487,
+            "name": "燃气灶",
+            "logo": "http://www.woimg.com/beehive/45d4f0301239b466f411d47e6d7a3a32.png",
+            "cateId": 432,
+            "child": []
+          },
+          {
+            "id": 488,
+            "name": "消毒柜",
+            "logo": "http://www.woimg.com/beehive/878721e4c87e832faf4e053480b9ecf2.png",
+            "cateId": 432,
+            "child": []
+          },
+          {
+            "id": 489,
+            "name": "洗碗机",
+            "logo": "http://www.woimg.com/beehive/e8d59a850178d62ede22f64e19501c66.png",
+            "cateId": 432,
+            "child": []
+          },
+          {
+            "id": 490,
+            "name": "热水器",
+            "logo": "http://www.woimg.com/beehive/7bddb9929e76d0daaef294d49a47f707.png",
+            "cateId": 432,
+            "child": []
+          },
+          {
+            "id": 491,
+            "name": "净水器",
+            "logo": "http://www.woimg.com/beehive/0cb239884c3e5b5706a4fa3e0b8ffbdb.png",
+            "cateId": 432,
+            "child": []
+          },
+          {
+            "id": 492,
+            "name": "烤箱",
+            "logo": "http://www.woimg.com/beehive/5f88286fa50cd02991abd44dd2933fbf.png",
+            "cateId": 432,
+            "child": []
+          },
+          {
+            "id": 602,
+            "name": "集成灶",
+            "logo": "http://www.woimg.com/beehive/55a9c7568aa153428c62f6db731406df.png",
+            "cateId": 432,
+            "child": []
+          },
+          {
+            "id": 629,
+            "name": "蒸箱",
+            "logo": "http://www.woimg.com/beehive/20f0bdbbe4876ad100e181633a35d39a.png",
+            "cateId": 432,
+            "child": []
+          }
+        ]
+      }
+    },
+    {
+      "_id": "7",
+      "banner": "https://www.woimg.com/beego/82fc3a539ef2543a3cfbf18aacd42a86.jpg",
+      "brand": {
+        "cateId": 453,
+        "name": "推荐品牌",
+        "brand": [
+          {
+            "id": 217,
+            "name": "九牧",
+            "logo": "https://www.woimg.com/beego/94119b52742254ef761052fd550a6369.png",
+            "cateId": 0
+          },
+          {
+            "id": 388,
+            "name": " SleepDesigns思丽德赛",
+            "logo": "https://www.woimg.com/beego/cms/2020/07/5341b1b88ece042b40f0466f672c1bfa.jpg",
+            "cateId": 584
+          },
+          {
+            "id": 345,
+            "name": "黄金海岸",
+            "logo": "https://www.woimg.com/beego/cms/2020/07/20d5b3ecd0c80a7613cc695a2c7bfaff.jpg",
+            "cateId": 529
+          },
+          {
+            "id": 135,
+            "name": "奥普",
+            "logo": "https://www.woimg.com/beego/3a86c94441d193d16df60b6f1f19fc8a.png",
+            "cateId": 352
+          },
+          {
+            "id": 119,
+            "name": "艾弗莱",
+            "logo": "https://www.woimg.com/beego/4a512171e264ca7c84814ac86dec9f7f.png",
+            "cateId": 352
+          },
+          {
+            "id": 362,
+            "name": "好太太",
+            "logo": "https://www.woimg.com/beego/cms/2020/03/8e16c00490fb78584df843ee306f476e.png",
+            "cateId": 454
+          },
+          {
+            "id": 228,
+            "name": "三雄极光",
+            "logo": "https://www.woimg.com/beego/c63bf7c4cda063fbba08c98ca6345f32.png",
+            "cateId": 429
+          }
+        ]
+      },
+      "cate": {
+        "cateId": 453,
+        "name": "家居",
+        "cate": [
+          {
+            "id": 454,
+            "name": "晾衣架",
+            "logo": "http://www.woimg.com/beehive/363daad9dc2b55e6b3d0b4a414987f3a.png",
+            "cateId": 453,
+            "child": []
+          },
+          {
+            "id": 494,
+            "name": "灯具",
+            "logo": "http://www.woimg.com/beehive/eaf9052d34076e2148739cefd49b622a.png",
+            "cateId": 453,
+            "child": [
+              {
+                "id": 496,
+                "name": "筒灯/射灯",
+                "logo": "",
+                "cateId": 494,
+                "child": []
+              },
+              {
+                "id": 515,
+                "name": "吊灯",
+                "logo": "",
+                "cateId": 494,
+                "child": []
+              },
+              {
+                "id": 526,
+                "name": "落地灯",
+                "logo": "",
+                "cateId": 494,
+                "child": []
+              },
+              {
+                "id": 527,
+                "name": "台灯",
+                "logo": "",
+                "cateId": 494,
+                "child": []
+              },
+              {
+                "id": 530,
+                "name": "灯管",
+                "logo": "",
+                "cateId": 494,
+                "child": []
+              },
+              {
+                "id": 532,
+                "name": "吸顶灯",
+                "logo": "",
+                "cateId": 494,
+                "child": []
+              },
+              {
+                "id": 533,
+                "name": "壁灯",
+                "logo": "",
+                "cateId": 494,
+                "child": []
+              },
+              {
+                "id": 537,
+                "name": "灯带",
+                "logo": "",
+                "cateId": 494,
+                "child": []
+              },
+              {
+                "id": 686,
+                "name": "套餐灯具",
+                "logo": "",
+                "cateId": 494,
+                "child": []
+              }
+            ]
+          },
+          {
+            "id": 495,
+            "name": "排气扇",
+            "logo": "http://www.woimg.com/beehive/45ccc77caeb2aa5ebe31587315ec4d4b.png",
+            "cateId": 453,
+            "child": []
+          },
+          {
+            "id": 504,
+            "name": "窗帘",
+            "logo": "http://www.woimg.com/beehive/ee4cd65a3af5e1e32ee61234a403e4d8.png",
+            "cateId": 453,
+            "child": [
+              {
+                "id": 505,
+                "name": "窗帘",
+                "logo": "",
+                "cateId": 504,
+                "child": []
+              },
+              {
+                "id": 506,
+                "name": "纱",
+                "logo": "",
+                "cateId": 504,
+                "child": []
+              },
+              {
+                "id": 507,
+                "name": "轨道或罗马杆",
+                "logo": "",
+                "cateId": 504,
+                "child": []
+              },
+              {
+                "id": 508,
+                "name": "工艺",
+                "logo": "",
+                "cateId": 504,
+                "child": []
+              },
+              {
+                "id": 509,
+                "name": "配件",
+                "logo": "",
+                "cateId": 504,
+                "child": []
+              },
+              {
+                "id": 523,
+                "name": "百叶帘",
+                "logo": "",
+                "cateId": 504,
+                "child": []
+              },
+              {
+                "id": 613,
+                "name": "帘头/帘楣",
+                "logo": "",
+                "cateId": 504,
+                "child": []
+              }
+            ]
+          },
+          {
+            "id": 529,
+            "name": "枕头",
+            "logo": "http://www.woimg.com/beehive/4b63b20c976ed8c81f1334d2fbaf0453.png",
+            "cateId": 453,
+            "child": []
+          },
+          {
+            "id": 584,
+            "name": "床垫",
+            "logo": "http://www.woimg.com/beehive/57a376d13467971f634a17643033aa15.png",
+            "cateId": 453,
+            "child": []
+          }
+        ]
+      }
+    },
+    {
+      "_id": "8",
+      "banner": "https://www.woimg.com/beego/cd90a3e239a6d8808632e6a2cfc2c132.jpg",
+      "brand": {
+        "cateId": 478,
+        "name": "推荐品牌",
+        "brand": [
+          {
+            "id": 113,
+            "name": "皮阿诺",
+            "logo": "https://www.woimg.com/beego/bafb1950652f86b0bccc1e7d08a11965.png",
+            "cateId": 338
+          },
+          {
+            "id": 126,
+            "name": "友邦集成吊顶",
+            "logo": "https://www.woimg.com/beego/ec06a652b74857335de5e9b97265a44e.png",
+            "cateId": 353
+          },
+          {
+            "id": 135,
+            "name": "奥普",
+            "logo": "https://www.woimg.com/beego/3a86c94441d193d16df60b6f1f19fc8a.png",
+            "cateId": 352
+          },
+          {
+            "id": 237,
+            "name": "客来福",
+            "logo": "https://www.woimg.com/beego/d3ea09251eee756f7ebf38256622e1e8.png",
+            "cateId": 501
+          },
+          {
+            "id": 238,
+            "name": "顶固",
+            "logo": "https://www.woimg.com/beego/a42098d84e446de06fa8c7acf5fd66c2.png",
+            "cateId": 0
+          }
+        ]
+      },
+      "cate": {
+        "cateId": 478,
+        "name": "集成定制",
+        "cate": [
+          {
+            "id": 480,
+            "name": "集成墙面",
+            "logo": "http://www.woimg.com/beehive/c39228490b637d1e955774436b4a68ea.png",
+            "cateId": 478,
+            "child": []
+          },
+          {
+            "id": 528,
+            "name": "定制家居",
+            "logo": "http://www.woimg.com/beehive/ac5ffe775eb8ab08a7e429bd0cb75308.png",
+            "cateId": 478,
+            "child": []
+          },
+          {
+            "id": 687,
+            "name": "集成墙面配件",
+            "logo": "http://www.woimg.com/beehive/8a43e704e2d0fc0d4c1aa6f93b88d714.png",
+            "cateId": 478,
+            "child": []
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -3,7 +3,7 @@ import React from 'react'
 
 function Poco() {
     return (
-        <div>Poco</div>
+        <div>Shop</div>
     )
 }
 

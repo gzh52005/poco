@@ -1,0 +1,125 @@
+{
+  "code": 12000,
+  "message": "",
+  "data": {
+    "items": [
+      {
+        "id": 35,
+        "title": "82㎡的小户型，这样的家好想住进去！",
+        "cate": [{ "id": 3, "name": "设计" }],
+        "img": "https://www.woimg.com/beego/16dee0ca8fdf5c5926969bd89ffbe50b.jpg",
+        "url": "https://m.anlewo.com/know/knowdetail?aid=35",
+        "isFavorite": false
+      },
+      {
+        "id": 30,
+        "title": "100㎡，30万的预算却装出50万的效果",
+        "cate": [{ "id": 3, "name": "设计" }],
+        "img": "https://www.woimg.com/beego/cac8d1280648eb70913846ea07f0205a.jpg",
+        "url": "https://m.anlewo.com/know/knowdetail?aid=30",
+        "isFavorite": false
+      },
+      {
+        "id": 29,
+        "title": "住宅成品化时代，泛装饰供应链成为家装新宠",
+        "cate": [{ "id": 4, "name": "施工" }],
+        "img": "https://www.woimg.com/beego/2896b1e343b4eddc30cf72ebafbe582f.jpg",
+        "url": "https://m.anlewo.com/know/knowdetail?aid=29",
+        "isFavorite": false
+      },
+      {
+        "id": 27,
+        "title": " 装修客厅的N种方式，总有一种适合你！",
+        "cate": [{ "id": 3, "name": "设计" }],
+        "img": "https://www.woimg.com/beego/b03367a29b8bcf050d91948d5a7c054e.jpg",
+        "url": "https://m.anlewo.com/know/knowdetail?aid=27",
+        "isFavorite": false
+      },
+      {
+        "id": 33,
+        "title": "精致轻奢风,淡淡绿植清香，清凉一夏",
+        "cate": [{ "id": 3, "name": "设计" }],
+        "img": "https://www.woimg.com/beego/638827156e3b14e43a83c92669c1e34b.jpg",
+        "url": "https://m.anlewo.com/know/knowdetail?aid=33",
+        "isFavorite": false
+      },
+      {
+        "id": 24,
+        "title": "大数据+场景营销，全屋整装将成为下一风口",
+        "cate": [{ "id": 2, "name": "选材" }],
+        "img": "https://www.woimg.com/beego/bc0ba6a1031efd2b65f772ce29309c46.jpg",
+        "url": "https://m.anlewo.com/know/knowdetail?aid=24",
+        "isFavorite": false
+      },
+      {
+        "id": 23,
+        "title": "安乐窝整装一站式平台",
+        "cate": [{ "id": 3, "name": "设计" }],
+        "img": "https://www.woimg.com/beego/565846b3d14c71e8f5398f2a0f0f4909.jpg",
+        "url": "https://m.anlewo.com/know/knowdetail?aid=23",
+        "isFavorite": false
+      },
+      {
+        "id": 39,
+        "title": "10条卫生间装修攻略,轻松打造完美卫生间",
+        "cate": [{ "id": 3, "name": "设计" }],
+        "img": "https://www.woimg.com/beego/982fb5ade88d9504467113a76f9ac72b.jpg",
+        "url": "https://m.anlewo.com/know/knowdetail?aid=39",
+        "isFavorite": false
+      },
+      {
+        "id": 31,
+        "title": "有趣实用的北欧风loft，两人的舒适小窝",
+        "cate": [{ "id": 3, "name": "设计" }],
+        "img": "https://www.woimg.com/beego/9e520b1a0f8f7f8a57d4553dc771b14d.jpg",
+        "url": "https://m.anlewo.com/know/knowdetail?aid=31",
+        "isFavorite": false
+      },
+      {
+        "id": 28,
+        "title": "安乐窝整装：品牌组合，做最懂消费者的整装",
+        "cate": [
+          { "id": 2, "name": "选材" },
+          { "id": 3, "name": "设计" },
+          { "id": 4, "name": "施工" }
+        ],
+        "img": "https://www.woimg.com/beego/9fa41c4f9d127fce5e2d9880a2d868dd.jpg",
+        "url": "https://m.anlewo.com/know/knowdetail?aid=28",
+        "isFavorite": false
+      },
+      {
+        "id": 21,
+        "title": "安乐窝商品质量检测中心（佛山）正式启用",
+        "cate": [{ "id": 4, "name": "施工" }],
+        "img": "https://www.woimg.com/beego/de34d8b9b1ffd23a0df1c7e7eb4ac697.jpg",
+        "url": "https://m.anlewo.com/know/knowdetail?aid=21",
+        "isFavorite": false
+      },
+      {
+        "id": 20,
+        "title": "Anlewo知道 | 主材如何选购与安装",
+        "cate": [{ "id": 3, "name": "设计" }],
+        "img": "https://www.woimg.com/beego/c9d8e75105c55d50389d356d09887066.jpg",
+        "url": "https://m.anlewo.com/know/knowdetail?aid=20",
+        "isFavorite": false
+      },
+      {
+        "id": 32,
+        "title": "60天极速开业，安乐窝拎包开业创行业先河",
+        "cate": [{ "id": 4, "name": "施工" }],
+        "img": "https://www.woimg.com/beego/38e524b126436f869d472d9b4a4ab58b.jpg",
+        "url": "https://m.anlewo.com/know/knowdetail?aid=32",
+        "isFavorite": false
+      }
+    ],
+    "_links": {
+      "self": { "href": "https://wap.woapi.net/v1/knowledge?page=1" }
+    },
+    "_meta": {
+      "totalCount": 13,
+      "pageCount": 1,
+      "currentPage": 1,
+      "perPage": 20
+    }
+  }
+}

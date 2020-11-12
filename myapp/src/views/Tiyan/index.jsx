@@ -3,7 +3,7 @@ import React from 'react'
 
 function Dialogue() {
     return (
-        <div>Dialogue</div>
+        <div>Tiyan</div>
     )
 }
 
