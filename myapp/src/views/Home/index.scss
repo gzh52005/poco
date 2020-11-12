@@ -1,0 +1,11 @@
+@function vw($n) {
+    // vw移动端适配
+    // 如果效果图是750，就除以750;
+    @return ($n * 2 * 100 / 750)+vw;
+}
+
+.box {
+    overflow: scroll;
+    background-color: #f5f5f5;
+    padding-bottom: vw(60);
+}
