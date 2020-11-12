@@ -1,0 +1,138 @@
+@function vw($n) {
+    // vw移动端适配
+    // 如果效果图是750，就除以750;
+    @return ($n * 2 * 100 / 750)+vw;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+.shop-bigBox {
+    height: 100%;
+    margin-bottom: vw(60);
+
+    .shop-box {
+        position: fixed;
+        height: vw(50);
+        width: 100%;
+        // padding: 0 vw(15);
+        background-color: #fff;
+
+        .shop-logo {
+            float: left;
+            margin-top: vw(15);
+            width: vw(120);
+            height: vw(23);
+            line-height: vw(23);
+            background-image: url('https://m.anlewo.com/static/img/icon-nav-title@2x.60e2a.png');
+            background-size: 100% 100%;
+            vertical-align: middle;
+            margin-left: vw(15);
+        }
+
+        .shop-nav {
+            float: right;
+            margin-top: vw(15);
+            width: 20px;
+            height: 20px;
+            background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAAoBAMAAAB+0KVeAAAAD1BMVEUAAABERERFRUVCQkJEREStaWzGAAAABHRSTlMA5kpJG2qUMwAAACNJREFUKM9jGFhg6IIBhBlEMAUdsQsqYgoKMQwVMOr3YeR3ALpFPMRuV8jpAAAAAElFTkSuQmCC);
+            background-size: 100% 100%;
+            vertical-align: middle;
+            margin-right: vw(15);
+        }
+    }
+
+    .shop-box1 {
+        padding: vw(70) vw(15) 0;
+
+        p {
+            margin: 0;
+            margin-bottom: vw(15);
+            width: 100%;
+            height: vw(30);
+            background-image: url('https://m.anlewo.com/static/img/icon-shop-build@2x.31b89.png');
+            background-size: vw(102) vw(30);
+            background-repeat: no-repeat;
+        }
+
+        div {
+            height: 100%;
+            // overflow: hidden;
+
+            ul {
+                height: 100%;
+                // background-color: pink;
+                padding: 0;
+                margin: 0;
+                overflow: hidden;
+
+                li {
+                    list-style: none;
+                    float: left;
+                    margin-bottom: vw(15);
+
+                    img {
+                        width: vw(165);
+                        height: vw(90);
+                    }
+                }
+
+                li:nth-child(2n+1) {
+                    margin-right: vw(15);
+                }
+
+            }
+
+
+        }
+    }
+
+    .shop-box2 {
+        padding: vw(10) vw(15) 0;
+
+        p {
+            margin: 0;
+            margin-bottom: vw(15);
+            width: 100%;
+            height: vw(30);
+            background-image: url('https://m.anlewo.com/static/img/icon-shop-build@2x.31b89.png');
+            background-size: vw(102) vw(30);
+            background-repeat: no-repeat;
+        }
+
+        div {
+            height: 100%;
+            // overflow: hidden;
+
+            ul {
+                height: 100%;
+                // background-color: pink;
+                padding: 0;
+                margin: 0;
+                overflow: hidden;
+
+                li {
+                    list-style: none;
+                    float: left;
+                    margin-bottom: vw(15);
+
+                    img {
+                        width: vw(165);
+                        height: vw(90);
+                    }
+                }
+
+                li:nth-child(2n+1) {
+                    margin-right: vw(15);
+                }
+
+            }
+
+
+        }
+    }
+
+}

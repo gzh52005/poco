@@ -1,5 +1,103 @@
-.box {
-  overflow: scroll;
-  background-color: #f5f5f5;
-  padding-bottom: 16vw;
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+
+.shop-bigBox {
+  height: 100%;
+  margin-bottom: 16vw;
+}
+.shop-bigBox .shop-box {
+  position: fixed;
+  height: 13.3333333333vw;
+  width: 100%;
+  background-color: #fff;
+}
+.shop-bigBox .shop-box .shop-logo {
+  float: left;
+  margin-top: 4vw;
+  width: 32vw;
+  height: 6.1333333333vw;
+  line-height: 6.1333333333vw;
+  background-image: url("https://m.anlewo.com/static/img/icon-nav-title@2x.60e2a.png");
+  background-size: 100% 100%;
+  vertical-align: middle;
+  margin-left: 4vw;
+}
+.shop-bigBox .shop-box .shop-nav {
+  float: right;
+  margin-top: 4vw;
+  width: 20px;
+  height: 20px;
+  background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAAoBAMAAAB+0KVeAAAAD1BMVEUAAABERERFRUVCQkJEREStaWzGAAAABHRSTlMA5kpJG2qUMwAAACNJREFUKM9jGFhg6IIBhBlEMAUdsQsqYgoKMQwVMOr3YeR3ALpFPMRuV8jpAAAAAElFTkSuQmCC);
+  background-size: 100% 100%;
+  vertical-align: middle;
+  margin-right: 4vw;
+}
+.shop-bigBox .shop-box1 {
+  padding: 18.6666666667vw 4vw 0;
+}
+.shop-bigBox .shop-box1 p {
+  margin: 0;
+  margin-bottom: 4vw;
+  width: 100%;
+  height: 8vw;
+  background-image: url("https://m.anlewo.com/static/img/icon-shop-build@2x.31b89.png");
+  background-size: 27.2vw 8vw;
+  background-repeat: no-repeat;
+}
+.shop-bigBox .shop-box1 div {
+  height: 100%;
+}
+.shop-bigBox .shop-box1 div ul {
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
+}
+.shop-bigBox .shop-box1 div ul li {
+  list-style: none;
+  float: left;
+  margin-bottom: 4vw;
+}
+.shop-bigBox .shop-box1 div ul li img {
+  width: 44vw;
+  height: 24vw;
+}
+.shop-bigBox .shop-box1 div ul li:nth-child(2n+1) {
+  margin-right: 4vw;
+}
+.shop-bigBox .shop-box2 {
+  padding: 2.6666666667vw 4vw 0;
+}
+.shop-bigBox .shop-box2 p {
+  margin: 0;
+  margin-bottom: 4vw;
+  width: 100%;
+  height: 8vw;
+  background-image: url("https://m.anlewo.com/static/img/icon-shop-build@2x.31b89.png");
+  background-size: 27.2vw 8vw;
+  background-repeat: no-repeat;
+}
+.shop-bigBox .shop-box2 div {
+  height: 100%;
+}
+.shop-bigBox .shop-box2 div ul {
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
+}
+.shop-bigBox .shop-box2 div ul li {
+  list-style: none;
+  float: left;
+  margin-bottom: 4vw;
+}
+.shop-bigBox .shop-box2 div ul li img {
+  width: 44vw;
+  height: 24vw;
+}
+.shop-bigBox .shop-box2 div ul li:nth-child(2n+1) {
+  margin-right: 4vw;
 }
