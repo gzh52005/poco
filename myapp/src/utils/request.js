@@ -1,42 +1,15 @@
+//axios二次封装
+const axios = require('axios');
+// console.log(process.env.VUE_APP_BASE_API,8899)
+// let url = process.env.VUE_APP_BASE_API;
 
-const baseUrl = process.env.NODE_ENV === 'development' ? 'http://120.76.247.5:2001' : 'http://offer.qfh5.cn';
+const request = axios.create({
+    // baseURL: '/dev-api',//设置基础路径
+    baseURL: '/dev-api',//设置基础路径
+    timeout: 5000,//设置最大响应时间
+    //工作后：设置请求头，设置token。后端才会响应数据
+    // headers: {'Authorization': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjoiMTIzNDU2IiwiaWF0IjoxNTk1NTI0ODY3LCJleHAiOjE1OTYxMjk2Njd9.4jkcI0DMYv3A1REGXQsJmWtwsxBU7nuRvFO7NJz2pms'} 
+  });
 
-const apiUrl = baseUrl + '/api'
-export function request(url, data, options = {}) {
-    url = apiUrl + url;
-
-    // 拼接get请求参数
-    if (options.method === 'get' || options.method === undefined) {
-        if (data) {
-            const params = [];
-            for (let key in data) {
-                params.push(`${key}=${data[key]}`)
-            }
-
-            url = url + '?' + params.join('&')
-        }
-    }
-
-    return fetch(url, {
-        ...options
-    }).then(res => {
-        return res.json()
-    })
-}
-
-// 封装get请求
-request.get = function (url, data = {}, options = {}) {
-    options.method = 'get';
-    return request(url, data, options);
-}
-
-request.post = function (url, data = {}, options = {}) {
-    options.method = 'post';
-    options.body = JSON.stringify(data)
-    options.headers = new Headers({
-        'Content-Type': 'application/json'
-    })
-    return request(url, data, options);
-}
-
-export default request;
+  //拦截器
+  module.exports = request;
