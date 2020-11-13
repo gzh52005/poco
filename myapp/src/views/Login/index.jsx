@@ -144,7 +144,7 @@ function Reg(props) {
                             密码
                         </InputItem>
                     </List>
-
+                    <p>使用社交账号登录 </p>
 
                 </WingBlank>
                 <WhiteSpace size="xl" />
