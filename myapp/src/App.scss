@@ -2,3 +2,7 @@
     position: fixed;
     bottom: 0;
 }
+* {
+    /* 怪异盒模型 */
+    box-sizing: border-box;
+}

@@ -1,0 +1,74 @@
+@function vw($n) {
+    // vw移动端适配
+    // 如果效果图是750，就除以750;
+    @return ($n * 2 * 100 / 750)+vw;
+}
+
+body {
+    background-color: #fff;
+    box-sizing: border-box;
+}
+
+.mine {
+    margin-top:vw(30) ;
+    height: vw(150);
+    padding: vw(35);
+    background-color: #fff;
+    .head_edit{
+        float: right;
+        position: relative;
+        height: vw(80);
+        width: vw(80);
+        
+        .head {
+            height: vw(80);
+            width: vw(80);
+        }
+        .edit{
+            position: absolute;
+            right: 0;
+            bottom: 0;
+        
+        }
+    }   
+}
+.content{
+    display: block;
+    height: vw(140);
+    width: 100%;
+    padding-left: 0;
+    background-color: #fff;
+    li{
+       list-style: none;
+        width: 20%;
+        height: vw(140);
+        float: left;
+        padding-top: vw(20);
+        padding-left: vw(15);
+        img{
+            height:vw(35);
+            width: vw(35);
+            
+        }
+        p{
+            margin-top: vw(20);
+            padding-left: vw(5);
+
+        }
+
+
+    }
+}
+.zixun{
+    background-color: #fff;
+    padding: vw(10) vw(20);
+    img{
+        float: right;
+        height:vw(20);
+        width: vw(20); 
+    }
+    p{
+        border-bottom: vw(1) #efefef solid;
+        padding-bottom: vw(5);
+    }
+}

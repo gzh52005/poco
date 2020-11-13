@@ -1,0 +1,13 @@
+@function vw($n) {
+    // vw移动端适配
+    // 如果效果图是750，就除以750;
+    @return ($n * 2 * 100 / 750)+vw;
+}
+
+// .reg{
+//     padding: vw(20);
+// }
+body{
+    height: 100%;
+    background-color: #fff;
+}
