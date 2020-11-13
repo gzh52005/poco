@@ -14,7 +14,10 @@ import Reg from './views/reg'
 
 import 'antd/dist/antd.css'
 
+
+
 class App extends React.Component{
+
   constructor(props){
     super(props)
     this.state = {
@@ -38,8 +41,7 @@ class App extends React.Component{
         ] ,
         currentPath: '/user'
     }
-    // this.goto = this.goto.bind(this);
-    // this.changeMenu = this.changeMenu.bind(this);
+
   }
   goto = (path)=>{
     this.props.history.push(path)
@@ -50,9 +52,8 @@ class App extends React.Component{
    })
   }
   render(){
-    const {menu,currentPath} = this.state;
     return (
-      <div>
+      <>
         <Row style={{backgroundColor:'#001529'}}>
           <Col span={20}>    
           <Menu mode="horizontal" theme="dark">
@@ -71,16 +72,17 @@ class App extends React.Component{
         </Row>
         <ul>
         </ul>
-  
+
+      
+       
         <Menu mode="vertical" 
         theme="dark"
-         selectedKeys={[currentPath]}
+         selectedKeys={[this.state.currentPath]}
          onClick={this.changeMenu}
-         style={{height:'813px', width:'150px',float:'left',marginRight:'20px'}}
+         style={{height:'88vh', width:'200px',float:'left',marginRight:'20px'}}
         >
-      
             {
-            menu.map(item => <Menu.Item key={item.path} >
+            this.state.menu.map(item => <Menu.Item key={item.path} >
               <NavLink to={item.path}
                 activeClassName='active'>{item.text}
   
@@ -102,7 +104,7 @@ class App extends React.Component{
           <Redirect to='/not' />
   
         </Switch>
-      </div>
+      </>
     )
   }
 }
