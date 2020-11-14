@@ -63,8 +63,14 @@ class App extends React.Component {
   changeMenu = ({ key }) => {
     this.setState({ currentPath: key })
   }
-
+  componentDidMount() {
+    let oMeta = document.createElement('meta');
+    oMeta.content = 'no-referrer';
+    oMeta.name = 'referrer';
+    document.getElementsByTagName('head')[0].appendChild(oMeta);
+  }
   UNSAFE_componentWillMount() {
+
     // componentDidUpdate() {
     // 获取当前路径
     const { pathname } = this.props.location;
@@ -93,34 +99,43 @@ class App extends React.Component {
           <Redirect from="/" to="/home" exact />
           <Redirect to="/notfound" />
         </Switch>
-        <TabBar
 
-        >
-          {/* #CFCF5A */}
-          {
-            menu.map(item => <TabBar.Item
-              title={item.text}
-              key={item.path}
-              onPress={this.goto.bind(null, item.path)}
-              icon={<div style={{
-                width: '22px',
-                height: '22px',
-                background: `url(${item.icon}) center center /  21px 21px no-repeat`
-              }}
-              />
-              }
-              selectedIcon={<div style={{
-                width: '22px',
-                height: '22px',
-                background: `url(${item.icon1}) center center /  21px 21px no-repeat`
-              }}
-              />
-              }
+
+
+        {
+          console.log(this.props),
+          this.props.location.pathname === "/home" || "/tiyan" || "/shop" || "/mine"? <TabBar
             >
-            </TabBar.Item>)
-          }
+              {/* #CFCF5A */}
+              {
+                menu.map(item =>
+                  <TabBar.Item
+                    title={item.text}
+                    key={item.path}
+                    onPress={this.goto.bind(null, item.path)}
+                    icon={<div style={{
+                      width: '22px',
+                      height: '22px',
+                      background: `url(${item.icon}) center center /  21px 21px no-repeat`
+                    }}
+                    />
+                    }
+                    selectedIcon={<div style={{
+                      width: '22px',
+                      height: '22px',
+                      background: `url(${item.icon1}) center center /  21px 21px no-repeat`
+                    }}
+                    />
+                    }
+                  >
+                  </TabBar.Item>)
+              }
 
-        </TabBar>
+            </TabBar>: ""
+
+        }
+
+
 
       </div>
     )
