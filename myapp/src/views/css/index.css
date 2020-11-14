@@ -1,103 +1,153 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
 html,
 body {
   width: 100%;
   height: 100%;
 }
 
-.shop-bigBox {
-  height: 100%;
-  margin-bottom: 16vw;
-}
-.shop-bigBox .shop-box {
-  position: fixed;
-  height: 13.3333333333vw;
+.lists-box {
   width: 100%;
+  height: 100%;
+}
+.lists-box .lists-box1 {
+  position: fixed;
+  text-align: center;
+  height: 13.3333333333vw;
+  line-height: 13.3333333333vw;
+  width: 100%;
+  font-size: 4.2666666667vw;
   background-color: #fff;
 }
-.shop-bigBox .shop-box .shop-logo {
+.lists-box .lists-box1 h3::after {
+  display: inline-block;
+  text-align: center;
+  position: absolute;
+  width: 6.6666666667vw;
+  height: 0.8vw;
+  background-color: #222;
+  border-radius: 1.3333333333vw;
+  content: "";
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  bottom: 1.3333333333vw;
+  left: 46.1333333333vw;
+}
+.lists-box .lists-box1 .icon-left {
+  position: absolute;
+  left: 0vw;
+  top: 2.1333333333vw;
+  color: #666;
+}
+.lists-box .box2 {
+  width: 100%;
+  height: 100%;
+}
+.lists-box .box2 .box2-left {
+  position: fixed;
+  left: 0;
+  top: 13.3333333333vw;
+  width: 23.4666666667vw;
+  height: 100%;
+}
+.lists-box .box2 .box2-left ul {
+  width: 23.4666666667vw;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+.lists-box .box2 .box2-left ul li {
+  position: relative;
+  list-style: none;
+  width: 23.4666666667vw;
+  height: 16vw;
+  line-height: 16vw;
+  text-align: center;
+  border-right: 0.2666666667vw solid #ccc;
+  background-color: #fff;
+  color: #999;
+}
+.lists-box .box2 .box2-left ul li::after {
+  display: inline-block;
+  text-align: center;
+  position: absolute;
+  width: 10.6666666667vw;
+  height: 0.5333333333vw;
+  background-color: #666;
+  border-radius: 2.1333333333vw;
+  content: "";
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  bottom: 4vw;
+  left: 50%;
+  margin-left: -5.3333333333vw;
+  z-index: 5;
+}
+.lists-box .box2 .box2-right {
+  position: fixed;
+  width: 68.5%;
+  height: 85%;
+  left: 23.4666666667vw;
+  padding: 4vw 4vw 0;
+  top: 13.3333333333vw;
+  background-color: #fff;
+  overflow: scroll;
+}
+.lists-box .box2 .box2-right .box3 img {
+  width: 68vw;
+  height: 24vw;
+}
+.lists-box .box2 .box2-right .box4 {
+  width: 100%;
+  margin-top: 5.3333333333vw;
+}
+.lists-box .box2 .box2-right .box4 div {
+  margin-top: 2.1333333333vw;
+  background-color: #fbfbfb;
+}
+.lists-box .box2 .box2-right .box4 div ul li {
   float: left;
-  margin-top: 4vw;
+  list-style: none;
+}
+.lists-box .box2 .box2-right .box4 div ul li img {
+  width: 21.3333333333vw;
+  height: 12vw;
+}
+.lists-box .box2 .box2-right .box5 {
+  width: 100%;
+  height: 100%;
+}
+.lists-box .box2 .box2-right .box5 ul {
+  width: 100%;
+  height: 70%;
+}
+.lists-box .box2 .box2-right .box5 ul li {
+  float: left;
+  list-style: none;
+  margin-bottom: 4vw;
+}
+.lists-box .box2 .box2-right .box5 ul li p {
   width: 32vw;
-  height: 6.1333333333vw;
-  line-height: 6.1333333333vw;
-  background-image: url("https://m.anlewo.com/static/img/icon-nav-title@2x.60e2a.png");
-  background-size: 100% 100%;
-  vertical-align: middle;
-  margin-left: 4vw;
+  height: 32vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  background-color: #fbfbfb !important;
 }
-.shop-bigBox .shop-box .shop-nav {
-  float: right;
-  margin-top: 4vw;
-  width: 20px;
-  height: 20px;
-  background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAAoBAMAAAB+0KVeAAAAD1BMVEUAAABERERFRUVCQkJEREStaWzGAAAABHRSTlMA5kpJG2qUMwAAACNJREFUKM9jGFhg6IIBhBlEMAUdsQsqYgoKMQwVMOr3YeR3ALpFPMRuV8jpAAAAAElFTkSuQmCC);
-  background-size: 100% 100%;
-  vertical-align: middle;
-  margin-right: 4vw;
+.lists-box .box2 .box2-right .box5 ul li p img {
+  width: 26.6666666667vw;
+  height: 26.6666666667vw;
 }
-.shop-bigBox .shop-box1 {
-  padding: 18.6666666667vw 4vw 0;
+.lists-box .box2 .box2-right .box5 ul li p span {
+  position: absolute;
+  bottom: 0vw;
+  font-size: 3.2vw;
+  color: #444;
 }
-.shop-bigBox .shop-box1 p {
-  margin: 0;
-  margin-bottom: 4vw;
-  width: 100%;
-  height: 8vw;
-  background-image: url("https://m.anlewo.com/static/img/icon-shop-build@2x.31b89.png");
-  background-size: 27.2vw 8vw;
-  background-repeat: no-repeat;
-}
-.shop-bigBox .shop-box1 div {
-  height: 100%;
-}
-.shop-bigBox .shop-box1 div ul {
-  height: 100%;
-  padding: 0;
-  margin: 0;
-  overflow: hidden;
-}
-.shop-bigBox .shop-box1 div ul li {
-  list-style: none;
-  float: left;
-  margin-bottom: 4vw;
-}
-.shop-bigBox .shop-box1 div ul li img {
-  width: 44vw;
-  height: 24vw;
-}
-.shop-bigBox .shop-box1 div ul li:nth-child(2n+1) {
-  margin-right: 4vw;
-}
-.shop-bigBox .shop-box2 {
-  padding: 2.6666666667vw 4vw 0;
-}
-.shop-bigBox .shop-box2 p {
-  margin: 0;
-  margin-bottom: 4vw;
-  width: 100%;
-  height: 8vw;
-  background-image: url("https://m.anlewo.com/static/img/icon-shop-build@2x.31b89.png");
-  background-size: 27.2vw 8vw;
-  background-repeat: no-repeat;
-}
-.shop-bigBox .shop-box2 div {
-  height: 100%;
-}
-.shop-bigBox .shop-box2 div ul {
-  height: 100%;
-  padding: 0;
-  margin: 0;
-  overflow: hidden;
-}
-.shop-bigBox .shop-box2 div ul li {
-  list-style: none;
-  float: left;
-  margin-bottom: 4vw;
-}
-.shop-bigBox .shop-box2 div ul li img {
-  width: 44vw;
-  height: 24vw;
-}
-.shop-bigBox .shop-box2 div ul li:nth-child(2n+1) {
+.lists-box .box2 .box2-right .box5 ul li:nth-child(2n+1) {
   margin-right: 4vw;
 }

@@ -8,6 +8,8 @@ import Reg from './views/Reg'
 import Tiyan from './views/Tiyan'
 import Mine from './views/Mine'
 import Shop from './views/Shop'
+import ListShop from './views/ListShop'
+import GoodsList from './views/GoodsList'
 
 
 
@@ -89,13 +91,13 @@ class App extends React.Component {
           <Route path="/tiyan" component={Tiyan} />
           <Route path="/mine" component={Mine} />
           <Route path="/shop" component={Shop} />
+          <Route path="/listshop" component={ListShop} />
+          <Route path="/goodslist" component={GoodsList} />
           <Route path="/notfound" render={() => <div>404</div>} />
           <Redirect from="/" to="/home" exact />
           <Redirect to="/notfound" />
         </Switch>
-        <TabBar
-
-        >
+        <TabBar >
           {/* #CFCF5A */}
           {
             menu.map(item => <TabBar.Item

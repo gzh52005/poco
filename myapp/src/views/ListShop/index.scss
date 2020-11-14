@@ -1,0 +1,206 @@
+@function vw($n) {
+    // vw移动端适配
+    // 如果效果图是750，就除以750;
+    @return ($n * 2 * 100 / 750)+vw;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+.check {         
+ color: #000 !important;
+ font-size: vw(16);
+ font-weight: 700;
+}
+.check::after{
+    position: absolute;
+    width: vw(30);
+    height: vw(2);
+    border-radius: vw(5);
+    background-color: #222;
+    content: "";
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    bottom: vw(5);
+    left:50%;
+    margin-left: vw(-15);
+}
+
+.lists-box {
+    width: 100%;
+    height: 100%;
+
+    .lists-box1 {
+        position: fixed;
+        text-align: center;
+        height: vw(50);
+        line-height: vw(50);
+        width: 100%;
+        font-size: vw(16);
+        // padding: 0 vw(15);
+        background-color: #fff;
+
+        h3::after {
+            display: inline-block;
+            text-align: center;
+            position: absolute;
+            width: vw(25);
+            height: vw(3);
+            background-color: #222;
+            border-radius: vw(5);
+            content: "";
+            -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+            bottom: vw(5);
+            left: vw(173);
+        }
+
+        .icon-left {
+            position: absolute;
+            left: vw(0);
+            top: vw(8);
+            color: #666;
+        }
+
+
+    }
+
+    .box2 {
+        width: 100%;
+        height: 100%;
+
+        .box2-left {
+            position: fixed;
+            left: 0;
+            top: vw(50);
+            width: vw(88);
+            height: 100%;
+
+            ul {
+                width: vw(88);
+                margin: 0;
+                padding: 0;
+                height: 100%;
+                background-color: #fff;
+                border-right: vw(1) solid #999;
+
+                li {
+                    position: relative;
+                    list-style: none;
+                    width: vw(88);
+                    // padding: 0 vw(20);
+                    height: vw(60);
+                    line-height: vw(60);
+                    text-align: center;
+                   
+                    background-color: #fff;
+                    color: #999;
+                }
+
+            }
+        }
+
+        .box2-right {
+            position: fixed;
+            width: 68.5%;
+            height: 85%;
+            left: vw(88);
+            padding: vw(15) vw(15) 0;
+
+            top: vw(50);
+            background-color: #fff;
+            // margin-left: vw(88);
+            overflow: scroll;
+
+            .box3 {
+                img {
+                    width: vw(255);
+                    height: vw(90);
+                }
+            }
+
+            .box4 {
+                width: 100%;
+                // height: 100%;
+                margin-top: vw(20);
+                min-height: vw(120);
+                overflow: hidden;
+                // background-color: pink;
+
+                div {
+                    margin-top: vw(8);
+                    // width: vw(80);
+                    // height: vw(45);
+                    background-color: #fbfbfb;
+
+                    ul {
+                        li {
+                            float: left;
+                            list-style: none;
+
+                            img {
+                                width: vw(80);
+                                height: vw(45);
+                            }
+                        }
+                    }
+
+
+                }
+            }
+
+            .box5 {
+                width: 100%;
+                ul {
+                    width: 100%;
+                    height: 70%;
+
+                    li {
+                        float: left;
+                        list-style: none;
+                        margin-bottom: vw(15);
+
+                        p {
+                            width: vw(120);
+                            height: vw(120);
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                            position: relative;
+                            background-color: #fbfbfb !important;
+
+
+                            img {
+                                width: vw(100);
+                                height: vw(100);
+                            }
+
+                            span {
+                                position: absolute;
+                                bottom: vw(0);
+                                font-size: vw(12);
+                                color: #444;
+                            }
+                        }
+
+
+                    }
+
+                    li:nth-child(2n+1) {
+                        margin-right: vw(15);
+                    }
+                }
+            }
+
+        }
+    }
+}
+
