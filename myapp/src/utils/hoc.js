@@ -16,7 +16,7 @@ import { Toast } from 'antd-mobile'
 
 export function withUser(InnerComponent) {
     return function OuterComponent(props) {
-        console.log('OuterComponent.props=', props)
+        // console.log('OuterComponent.props=', props)
         let data = localStorage.getItem('currentUser');
         let currentUser
         try {
@@ -76,7 +76,7 @@ export function withAuth(InnerComponent) {
                     }
                 });
 
-                console.log('verify=', data);
+                // console.log('verify=', data);
                 if (data.status === 401) {
                     Toast.error('登录已失效，请重新登录')
                     this.props.history.replace({

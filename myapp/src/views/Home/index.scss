@@ -4,9 +4,123 @@
     @return ($n * 2 * 100 / 750)+vw;
 }
 
-.box {
+
+
+.home {
     overflow: scroll;
-    background-color: #fff;
-    padding-bottom: vw(60);
-    
+    padding-bottom: vw(45);
+
+    .main {
+        background-color: #fff;
+        height: 100%;
+        width: 100vw;
+        overflow: hidden;
+        padding-bottom: vw(10);
+
+        .cont {
+
+            display: block;
+            height: vw(130);
+            width: 100%;
+            padding-left: 0;
+            background-color: #fff;
+            margin: 0;
+
+            li {
+                list-style: none;
+                width: 25%;
+                height: vw(120);
+                float: left;
+                padding-top: vw(20);
+
+                ;
+
+                img {
+                    height: vw(35);
+                    width: vw(35);
+                    margin-left: vw(30)
+                }
+
+                p {
+                    margin-top: vw(20);
+                    padding-left: vw(5);
+                    text-align: center;
+
+                }
+
+
+            }
+        }
+    }
+
+    .collocation {
+        margin-top: vw(5);
+        background-color: #fff;
+        padding:vw(10) 0 vw(20) vw(15);
+
+        img {
+            height: vw(150);
+            margin-left: vw(15);
+        }
+
+        .detile {
+            font-size: vw(12);
+            color: #999;
+            
+            span {
+                display: inline-block; 
+                border-right: 1px solid #999;
+                padding: 0 vw(5);
+
+            }
+
+
+        }
+
+    }
+
+    .title {
+        // padding-left: vw(10);
+        font-size: vw(20);
+        font-weight: bold;
+
+        span {
+            font-size: vw(10);
+            color: #ffb900;
+            float: right;
+            font-weight: normal;
+            padding-right: vw(20);
+            padding-top: vw(5);
+        }
+    }
+
+    .nav {
+
+        margin-top: vw(5);
+        padding: vw(5) 0 vw(10) vw(15);
+        width: 100%;
+        background-color: #fff;
+
+        .navimg {
+            display: flex;
+            justify-content: space-between;
+            overflow: auto;
+
+            img {
+                height: vw(70);
+                float: left;
+            }
+        }
+
+        .navimg::-webkit-scrollbar {
+            /* 隐藏滚动条 */
+            display: none;
+        }
+
+    }
+    .foot{
+        text-align: center;
+        margin-top: vw(25);
+        
+    }
 }
