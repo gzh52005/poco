@@ -4,6 +4,53 @@ import { Form, Input, Button, Select, Modal, InputNumber, Table } from 'antd';
 // import { FormInstance } from 'antd/lib/form';
 const { Option } = Select;
 
+const columns = [
+  {
+    title: '姓名',
+    dataIndex: 'name',
+  },
+  {
+    title: '年龄',
+    dataIndex: 'age',
+  },
+  {
+    title: '电话',
+    dataIndex: 'address',
+  },
+  {
+    title: '性别',
+    dataIndex: 'gender',
+  },
+  {
+    title: '地址',
+    dataIndex: 'address',
+  },
+  {
+    title :'操作',
+    dataIndex: 'zulv'
+  }
+];
+
+const data = [];
+for (let i = 0; i < 100; i++) {
+  data.push({
+    key: i,
+    name: '张三',
+    age: 32,
+    address:'13066358585',
+    gender:'女',
+    address:'广州天河',
+    zulv: <div><Button type="primary" style={{ marginLeft: '10px' }}>
+    编辑
+  </Button>
+  <Button type="primary" style={{ marginLeft: '10px',backgroundColor:'#e02433' }}>
+   删除
+</Button>
+  </div>,
+  });
+}
+
+console.log(data)
 class User extends React.Component {
   state = {
     selectedRowKeys: [], 
@@ -36,7 +83,34 @@ class User extends React.Component {
     });
   };
 
+  state = {
+    selectedRowKeys: [], // Check here to configure the default column
+    loading: false,
+  };
+
+  start = () => {
+    this.setState({ loading: true });
+    // ajax request after empty completing
+    setTimeout(() => {
+      this.setState({
+        selectedRowKeys: [],
+        loading: false,
+      });
+    }, 1000);
+  };
+
+  onSelectChange = selectedRowKeys => {
+    console.log('selectedRowKeys changed: ', selectedRowKeys);
+    this.setState({ selectedRowKeys });
+  };
+
   render() {
+    const { loading, selectedRowKeys } = this.state;
+    const rowSelection = {
+      selectedRowKeys,
+      onChange: this.onSelectChange,
+    };
+    const hasSelected = selectedRowKeys.length > 0;
 
     return (
 
@@ -103,10 +177,16 @@ class User extends React.Component {
             </Form>
           </Modal>
         </>
-
-
         
+        <div style={{ marginBottom: 16, width:'150vh',float:'left' }}>
+        <div style={{ marginBottom: 16,}}>
+          <span style={{ marginLeft: 8 }}>
+            {hasSelected ? `Selected ${selectedRowKeys.length} items` : ''}
+          </span>
+        </div>
+        <Table rowSelection={rowSelection} columns={columns} dataSource={data} />
       </div>
+      </div>  
     )
 
   }
