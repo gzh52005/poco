@@ -1,0 +1,780 @@
+[
+  {
+    "code": 12000,
+    "message": "",
+    "data": {
+      "goodsId": 5829,
+      "goodsName": "鹰牌陶瓷 TE0D6FA-T09E 君子白玉 800*800 全抛釉 一石多面",
+      "jingle": "",
+      "cateId": 335,
+      "cateName": "地砖",
+      "brandId": 189,
+      "brandName": "鹰牌陶瓷",
+      "price": "88",
+      "marketPrice": "288.00",
+      "img": "http://www.woimg.com/beehive/2019/06/b1c404996509dc87d1e57a211b9acdd3.jpeg",
+      "body": [
+        {
+          "type": "image",
+          "value": "http://www.woimg.com/beehive/d846ab431da81cbee071b3fcdbe8c920.jpg"
+        },
+        {
+          "type": "image",
+          "value": "http://www.woimg.com/beehive/2017/02/26a6e7a74ae2f79f28dbcdd094a5f0fd.jpg"
+        },
+        {
+          "type": "image",
+          "value": "http://www.woimg.com/beehive/8ee1c8490a4c2ee7621ff609e104a587.jpg"
+        },
+        {
+          "type": "image",
+          "value": "http://www.woimg.com/beehive/a15ee165ec150713596e521c0d1d527f.jpg"
+        },
+        {
+          "type": "image",
+          "value": "http://www.woimg.com/beehive/2017/02/62736577379c6392a4e929babdbe0927.jpg"
+        },
+        {
+          "type": "image",
+          "value": "http://www.woimg.com/beehive/2017/02/ee9198f2eb44aea4d42438611d336fb1.jpg"
+        },
+        {
+          "type": "image",
+          "value": "http://www.woimg.com/beehive/be384da280b11915a37a1a7a7ab52612.jpg"
+        }
+      ],
+      "label": 2,
+      "labelPrice": "0.00",
+      "packages": [
+        { "id": 1, "name": "主材包" },
+        { "id": 2, "name": "整装包" },
+        { "id": 3, "name": "拎包入住" }
+      ],
+      "goodsSn": "TE0D6FA-T09E",
+      "factorySn": "TE0D6FA-T09E",
+      "spec": [],
+      "goodsAttr": [
+        { "id": "分类", "name": "地砖" },
+        { "id": "安乐窝型号", "name": "TE0D6FA-T09E" },
+        { "id": "品牌", "name": "鹰牌陶瓷" },
+        { "id": "风格", "name": "北欧风,现代简约,美式,欧式,新中式,轻奢" },
+        { "id": "类别", "name": "抛釉砖" },
+        { "id": "地砖尺寸", "name": "800*800" }
+      ],
+      "collect": 29,
+      "isFavorite": false,
+      "saleNum": 68530,
+      "status": 1,
+      "url": "https://m.anlewo.com/shop/goodsDetail?goodsId=5829",
+      "sku": [
+        {
+          "skuId": 9078,
+          "state": 1,
+          "brandId": 189,
+          "brandName": "鹰牌陶瓷",
+          "cateId": 335,
+          "cateName": "地砖",
+          "goodsId": 5829,
+          "goodsName": "鹰牌陶瓷 TE0D6FA-T09E 君子白玉 800*800 全抛釉 一石多面",
+          "cover": "http://www.woimg.com/beehive/2019/06/b1c404996509dc87d1e57a211b9acdd3.jpeg",
+          "img": "http://www.woimg.com/beehive/2019/06/b1c404996509dc87d1e57a211b9acdd3.jpeg",
+          "imgs": [
+            {
+              "id": 1,
+              "img": "http://www.woimg.com/beehive/2019/06/b1c404996509dc87d1e57a211b9acdd3.jpeg"
+            },
+            {
+              "id": 2,
+              "img": "http://www.woimg.com/beehive/925e7d968501f087b9f1acfa9cef7d59.jpg"
+            },
+            {
+              "id": 3,
+              "img": "http://www.woimg.com/beehive/27fbbd1831745346009b5eb35b6fa355.jpg"
+            }
+          ],
+          "jingle": "",
+          "marketPrice": "288.00",
+          "packages": [
+            { "id": 1, "name": "主材包" },
+            { "id": 2, "name": "整装包" },
+            { "id": 3, "name": "拎包入住" }
+          ],
+          "price": "88.00",
+          "priceType": 2,
+          "floatPrice": "0.00",
+          "floatPriceUnit": "元/片",
+          "saleNum": 68530,
+          "spec": "",
+          "unit": "片",
+          "qr": "https://www.woimg.com/beego/qr/9078.png",
+          "cabinetPrice": []
+        }
+      ],
+      "unit": "元/片",
+      "isOnlyZs": 0,
+      "scheduling": 1,
+      "specString": "类别: 抛釉砖;地砖尺寸: 800*800",
+      "cabinetPrice": []
+    }
+  },
+  {
+    "code": 12000,
+    "message": "",
+    "data": {
+      "goodsId": 6599,
+      "goodsName": "鹰牌 抛釉砖 丹麦古堡灰 TE0D6FA-T21E 800*800 一石多面",
+      "jingle": "",
+      "cateId": 335,
+      "cateName": "地砖",
+      "brandId": 189,
+      "brandName": "鹰牌陶瓷",
+      "price": "78",
+      "marketPrice": "308.00",
+      "img": "http://www.woimg.com/beehive/2019/06/fe9b76eedeb03d6fabe121d54549b246.jpeg",
+      "body": [
+        {
+          "type": "image",
+          "value": "http://www.woimg.com/beehive/d846ab431da81cbee071b3fcdbe8c920.jpg"
+        },
+        {
+          "type": "image",
+          "value": "http://www.woimg.com/beehive/2017/09/e67e72663d06bacaee337380c9e37e2d.jpg"
+        },
+        {
+          "type": "image",
+          "value": "http://www.woimg.com/beehive/2017/09/c7902cb102491ac4e55361f439953d36.jpg"
+        },
+        {
+          "type": "image",
+          "value": "http://www.woimg.com/beehive/2017/09/c1480f6c9a6dd988b0748ef8cd4980b5.jpg"
+        },
+        {
+          "type": "image",
+          "value": "http://www.woimg.com/beehive/2017/09/95476705580c5c8050b1b59ca94ef2d7.jpg"
+        },
+        {
+          "type": "image",
+          "value": "http://www.woimg.com/beehive/2017/09/953d809833c1fe35968b9f2c42bad2e9.jpg"
+        },
+        {
+          "type": "image",
+          "value": "http://www.woimg.com/beehive/2017/09/70a385194ac2e0daf352974a58e53a32.jpg"
+        },
+        {
+          "type": "image",
+          "value": "http://www.woimg.com/beehive/2017/09/ea5ca6574b0d4c0c171c4530e75ece2e.jpg"
+        },
+        {
+          "type": "image",
+          "value": "http://www.woimg.com/beehive/a8e21fbe1bbf230c181502ac5f9bdf00.jpg"
+        },
+        {
+          "type": "image",
+          "value": "http://www.woimg.com/beehive/2017/09/ec6100f9a5e3481ab62f12afd1458437.jpg"
+        },
+        {
+          "type": "image",
+          "value": "http://www.woimg.com/beehive/2017/09/242533abd281b142906a38f2556ab067.jpg"
+        },
+        {
+          "type": "image",
+          "value": "http://www.woimg.com/beehive/2017/09/86e52bc6745874bcd1c0eb0f47a19b4c.jpg"
+        },
+        {
+          "type": "image",
+          "value": "http://www.woimg.com/beehive/2017/09/0478db4c75d5e88a9c37522f8a994dc4.jpg"
+        },
+        {
+          "type": "image",
+          "value": "http://www.woimg.com/beehive/be384da280b11915a37a1a7a7ab52612.jpg"
+        }
+      ],
+      "label": 2,
+      "labelPrice": "0.00",
+      "packages": [
+        { "id": 1, "name": "主材包" },
+        { "id": 2, "name": "整装包" },
+        { "id": 3, "name": "拎包入住" }
+      ],
+      "goodsSn": "TE0D6FA-T21E",
+      "factorySn": "TE0D6FA-T21E",
+      "spec": [],
+      "goodsAttr": [
+        { "id": "分类", "name": "地砖" },
+        { "id": "安乐窝型号", "name": "TE0D6FA-T21E" },
+        { "id": "品牌", "name": "鹰牌陶瓷" },
+        { "id": "风格", "name": "北欧风,现代简约,美式,欧式,新中式,轻奢" },
+        { "id": "类别", "name": "抛釉砖" },
+        { "id": "地砖尺寸", "name": "800*800" }
+      ],
+      "collect": 29,
+      "isFavorite": false,
+      "saleNum": 28563,
+      "status": 1,
+      "url": "https://m.anlewo.com/shop/goodsDetail?goodsId=6599",
+      "sku": [
+        {
+          "skuId": 12535,
+          "state": 1,
+          "brandId": 189,
+          "brandName": "鹰牌陶瓷",
+          "cateId": 335,
+          "cateName": "地砖",
+          "goodsId": 6599,
+          "goodsName": "鹰牌 抛釉砖 丹麦古堡灰 TE0D6FA-T21E 800*800 一石多面",
+          "cover": "http://www.woimg.com/beehive/2019/06/fe9b76eedeb03d6fabe121d54549b246.jpeg",
+          "img": "http://www.woimg.com/beehive/2019/06/fe9b76eedeb03d6fabe121d54549b246.jpeg",
+          "imgs": [
+            {
+              "id": 1,
+              "img": "http://www.woimg.com/beehive/2019/06/fe9b76eedeb03d6fabe121d54549b246.jpeg"
+            }
+          ],
+          "jingle": "",
+          "marketPrice": "308.00",
+          "packages": [
+            { "id": 1, "name": "主材包" },
+            { "id": 2, "name": "整装包" },
+            { "id": 3, "name": "拎包入住" }
+          ],
+          "price": "78.00",
+          "priceType": 2,
+          "floatPrice": "0.00",
+          "floatPriceUnit": "元/片",
+          "saleNum": 28563,
+          "spec": "",
+          "unit": "片",
+          "qr": "https://www.woimg.com/beego/qr/12535.png",
+          "cabinetPrice": []
+        }
+      ],
+      "unit": "元/片",
+      "isOnlyZs": 0,
+      "scheduling": 1,
+      "specString": "类别: 抛釉砖;地砖尺寸: 800*800",
+      "cabinetPrice": []
+    }
+  },
+  {
+    "code": 12000,
+    "message": "",
+    "data": {
+      "goodsId": 7588,
+      "goodsName": "鹰牌 抛釉砖 TE0D6FA-T23E 800*800 一石多面",
+      "jingle": "",
+      "cateId": 335,
+      "cateName": "地砖",
+      "brandId": 189,
+      "brandName": "鹰牌陶瓷",
+      "price": "88",
+      "marketPrice": "228.00",
+      "img": "http://www.woimg.com/beehive/51639569b7140fb7f6df85cf08ee81d7.jpg",
+      "body": [
+        {
+          "type": "image",
+          "value": "http://www.woimg.com/beehive/d846ab431da81cbee071b3fcdbe8c920.jpg"
+        },
+        {
+          "type": "image",
+          "value": "http://www.woimg.com/beehive/2018/02/f02f3d1c6f00d70a0f17f503c7a486d6.jpg"
+        },
+        {
+          "type": "image",
+          "value": "http://www.woimg.com/beehive/2018/02/1d781f9d276b65b454883ac2a5a62a29.jpg"
+        },
+        {
+          "type": "image",
+          "value": "http://www.woimg.com/beehive/2018/02/d3e37db72265c9783b55b55ccc246d56.jpg"
+        },
+        {
+          "type": "image",
+          "value": "http://www.woimg.com/beehive/2018/02/d1f13b71450ad15b1ab6baa3ea0d4748.jpg"
+        },
+        {
+          "type": "image",
+          "value": "http://www.woimg.com/beehive/090e54930acc0aee8ff4514a9c7735b0.jpg"
+        },
+        {
+          "type": "image",
+          "value": "http://www.woimg.com/beehive/2018/02/87d5dd68fa84a2269e8ab377a0ea63fa.jpg"
+        },
+        {
+          "type": "image",
+          "value": "http://www.woimg.com/beehive/2018/02/de24d77de46e2d4884f6001470881e47.jpg"
+        },
+        {
+          "type": "image",
+          "value": "http://www.woimg.com/beehive/2018/02/e27c4b0b6b08f154c71737e633356a48.jpg"
+        },
+        {
+          "type": "image",
+          "value": "http://www.woimg.com/beehive/2018/02/d96cbcd81c1196c1cc50cdcae60e7e1f.jpg"
+        },
+        {
+          "type": "image",
+          "value": "http://www.woimg.com/beehive/be384da280b11915a37a1a7a7ab52612.jpg"
+        }
+      ],
+      "label": 2,
+      "labelPrice": "0.00",
+      "packages": [
+        { "id": 1, "name": "主材包" },
+        { "id": 2, "name": "整装包" },
+        { "id": 3, "name": "拎包入住" }
+      ],
+      "goodsSn": "TE0D6FA-T23E",
+      "factorySn": "TE0D6FA-T23E",
+      "spec": [],
+      "goodsAttr": [
+        { "id": "分类", "name": "地砖" },
+        { "id": "安乐窝型号", "name": "TE0D6FA-T23E" },
+        { "id": "品牌", "name": "鹰牌陶瓷" },
+        { "id": "风格", "name": "北欧风,现代简约,美式,欧式,新中式,轻奢" },
+        { "id": "类别", "name": "抛釉砖" },
+        { "id": "地砖尺寸", "name": "800*800" }
+      ],
+      "collect": 5,
+      "isFavorite": false,
+      "saleNum": 28352,
+      "status": 1,
+      "url": "https://m.anlewo.com/shop/goodsDetail?goodsId=7588",
+      "sku": [
+        {
+          "skuId": 17602,
+          "state": 1,
+          "brandId": 189,
+          "brandName": "鹰牌陶瓷",
+          "cateId": 335,
+          "cateName": "地砖",
+          "goodsId": 7588,
+          "goodsName": "鹰牌 抛釉砖 TE0D6FA-T23E 800*800 一石多面",
+          "cover": "http://www.woimg.com/beehive/51639569b7140fb7f6df85cf08ee81d7.jpg",
+          "img": "http://www.woimg.com/beehive/51639569b7140fb7f6df85cf08ee81d7.jpg",
+          "imgs": [
+            {
+              "id": 1,
+              "img": "http://www.woimg.com/beehive/51639569b7140fb7f6df85cf08ee81d7.jpg"
+            },
+            {
+              "id": 2,
+              "img": "http://www.woimg.com/beehive/ea9516a8578c9cb0bf1fb8312e43e67a.jpg"
+            },
+            {
+              "id": 3,
+              "img": "http://www.woimg.com/beehive/21bc3ab98f96f86722fac522a8f9c3c0.jpg"
+            },
+            {
+              "id": 4,
+              "img": "http://www.woimg.com/beehive/a94bac755ecae6e6f28da9d6f7a8c33c.jpg"
+            },
+            {
+              "id": 5,
+              "img": "http://www.woimg.com/beehive/be157f69d25182a09c3fdf7db92c1c24.jpg"
+            }
+          ],
+          "jingle": "",
+          "marketPrice": "228.00",
+          "packages": [
+            { "id": 1, "name": "主材包" },
+            { "id": 2, "name": "整装包" },
+            { "id": 3, "name": "拎包入住" }
+          ],
+          "price": "88.00",
+          "priceType": 2,
+          "floatPrice": "0.00",
+          "floatPriceUnit": "元/片",
+          "saleNum": 28352,
+          "spec": "",
+          "unit": "片",
+          "qr": "https://www.woimg.com/beego/qr/17602.png",
+          "cabinetPrice": []
+        }
+      ],
+      "unit": "元/片",
+      "isOnlyZs": 0,
+      "scheduling": 1,
+      "specString": "类别: 抛釉砖;地砖尺寸: 800*800",
+      "cabinetPrice": []
+    }
+  },
+  {
+    "code": 12000,
+    "message": "",
+    "data": {
+      "goodsId": 9052,
+      "goodsName": "东鹏瓷砖 莱茵米黄系列 CFG805321_A 800*800",
+      "jingle": "东鹏瓷砖 莱茵米黄系列 CFG805321_A 800*800",
+      "cateId": 335,
+      "cateName": "地砖",
+      "brandId": 89,
+      "brandName": "东鹏瓷砖",
+      "price": "88",
+      "marketPrice": "268.00",
+      "img": "http://www.woimg.com/beehive/e6a7e8febf9330caf1d1dd6f561c2375.jpg",
+      "body": [
+        {
+          "type": "image",
+          "value": "http://www.woimg.com/beehive/d846ab431da81cbee071b3fcdbe8c920.jpg"
+        },
+        {
+          "type": "image",
+          "value": "http://www.woimg.com/beehive/26f90fca4d941285da03ee1581756188.jpg"
+        },
+        {
+          "type": "image",
+          "value": "http://www.woimg.com/beehive/e2fe43f3a2533045d1b91b46f6e006ab.jpg"
+        },
+        {
+          "type": "image",
+          "value": "http://www.woimg.com/beehive/f1f4a2efc4b5001818255d54f06cf6b1.jpg"
+        },
+        {
+          "type": "image",
+          "value": "http://www.woimg.com/beehive/b8011821fac38c09c1daecba5d3ccdd2.jpg"
+        },
+        {
+          "type": "image",
+          "value": "http://www.woimg.com/beehive/6beb0ca5af42409b4ccc4a8e8f9e0e31.jpg"
+        },
+        {
+          "type": "image",
+          "value": "http://www.woimg.com/beehive/9843d4e575ed4dbe4185f9b3cc33893b.jpg"
+        },
+        {
+          "type": "image",
+          "value": "http://www.woimg.com/beehive/ec4a66f65a4212a667f3cc00044f1c5d.jpg"
+        }
+      ],
+      "label": 2,
+      "labelPrice": "0.00",
+      "packages": [
+        { "id": 1, "name": "主材包" },
+        { "id": 2, "name": "整装包" },
+        { "id": 3, "name": "拎包入住" }
+      ],
+      "goodsSn": "CFG805321_A",
+      "factorySn": "CFG805321_A",
+      "spec": [],
+      "goodsAttr": [
+        { "id": "分类", "name": "地砖" },
+        { "id": "安乐窝型号", "name": "CFG805321_A" },
+        { "id": "品牌", "name": "东鹏瓷砖" },
+        { "id": "风格", "name": "北欧风,现代简约,美式,欧式,新中式,轻奢" },
+        { "id": "类别", "name": "抛釉砖" },
+        { "id": "地砖尺寸", "name": "800*800" }
+      ],
+      "collect": 19,
+      "isFavorite": false,
+      "saleNum": 8564,
+      "status": 1,
+      "url": "https://m.anlewo.com/shop/goodsDetail?goodsId=9052",
+      "sku": [
+        {
+          "skuId": 20811,
+          "state": 1,
+          "brandId": 89,
+          "brandName": "东鹏瓷砖",
+          "cateId": 335,
+          "cateName": "地砖",
+          "goodsId": 9052,
+          "goodsName": "东鹏瓷砖 莱茵米黄系列 CFG805321_A 800*800",
+          "cover": "http://www.woimg.com/beehive/e6a7e8febf9330caf1d1dd6f561c2375.jpg",
+          "img": "http://www.woimg.com/beehive/e6a7e8febf9330caf1d1dd6f561c2375.jpg",
+          "imgs": [
+            {
+              "id": 1,
+              "img": "http://www.woimg.com/beehive/e6a7e8febf9330caf1d1dd6f561c2375.jpg"
+            }
+          ],
+          "jingle": "东鹏瓷砖 莱茵米黄系列 CFG805321_A 800*800",
+          "marketPrice": "268.00",
+          "packages": [
+            { "id": 1, "name": "主材包" },
+            { "id": 2, "name": "整装包" },
+            { "id": 3, "name": "拎包入住" }
+          ],
+          "price": "88.00",
+          "priceType": 2,
+          "floatPrice": "0.00",
+          "floatPriceUnit": "元/片",
+          "saleNum": 8564,
+          "spec": "",
+          "unit": "片",
+          "qr": "https://www.woimg.com/beego/qr/20811.png",
+          "cabinetPrice": []
+        }
+      ],
+      "unit": "元/片",
+      "isOnlyZs": 0,
+      "scheduling": 1,
+      "specString": "类别: 抛釉砖;地砖尺寸: 800*800",
+      "cabinetPrice": []
+    }
+  },
+  {
+    "code": 12000,
+    "message": "",
+    "data": {
+      "goodsId": 102678,
+      "goodsName": "诺贝尔 摩卡浅灰 RT61813",
+      "jingle": "",
+      "cateId": 335,
+      "cateName": "地砖",
+      "brandId": 151,
+      "brandName": "诺贝尔瓷砖",
+      "price": "188",
+      "marketPrice": "658.00",
+      "img": "http://www.woimg.com/beehive/2020/02/055f72737c027a050a27394f9e587032.jpeg",
+      "body": [
+        {
+          "type": "image",
+          "value": "http://www.woimg.com/beehive/d846ab431da81cbee071b3fcdbe8c920.jpg"
+        },
+        {
+          "type": "image",
+          "value": "http://www.woimg.com/beehive/0c3313dd5a9e3fc12ea5ad85107b48b5.jpg"
+        },
+        {
+          "type": "image",
+          "value": "http://www.woimg.com/beehive/f00939fb900b79cad55cf67c826ec8c3.jpg"
+        },
+        {
+          "type": "image",
+          "value": "http://www.woimg.com/beehive/d05270f998777e1bece75c3bbe2a9e75.jpg"
+        },
+        {
+          "type": "image",
+          "value": "http://www.woimg.com/beehive/5ce9cc9dad50d117424d5608c1f6d7a9.jpg"
+        },
+        {
+          "type": "image",
+          "value": "http://www.woimg.com/beehive/6fc994467bf214e5dd795d4193016374.jpg"
+        },
+        {
+          "type": "image",
+          "value": "http://www.woimg.com/beehive/48d0a6ce347f6c57fa1bd1eb38acf0b8.jpg"
+        },
+        {
+          "type": "image",
+          "value": "http://www.woimg.com/beehive/528334a5aea01a9a8c1950019dcb06bf.jpg"
+        },
+        {
+          "type": "image",
+          "value": "http://www.woimg.com/beehive/c81c850990f7f4861e1f9cb77f2e6a18.jpg"
+        },
+        {
+          "type": "image",
+          "value": "http://www.woimg.com/beehive/896aaeb8eee4848d54367f759aad89e6.jpg"
+        },
+        {
+          "type": "image",
+          "value": "http://www.woimg.com/beehive/b89f9478be61d1f9418dc71cfe7205e3.jpg"
+        },
+        {
+          "type": "image",
+          "value": "http://www.woimg.com/beehive/4d9799adcef0b8bb1eb392a538cd462e.jpg"
+        },
+        {
+          "type": "image",
+          "value": "http://www.woimg.com/beehive/2acb8ef7680e3d2f1c9f2d680c9aca34.jpg"
+        }
+      ],
+      "label": 1,
+      "labelPrice": "69.90",
+      "packages": [{ "id": 1, "name": "主材包" }],
+      "goodsSn": "RT61813",
+      "factorySn": "RT61813",
+      "spec": [],
+      "goodsAttr": [
+        { "id": "分类", "name": "地砖" },
+        { "id": "安乐窝型号", "name": "RT61813" },
+        { "id": "品牌", "name": "诺贝尔瓷砖" },
+        { "id": "风格", "name": "北欧风,现代简约,美式,欧式,新中式,轻奢" },
+        { "id": "地砖尺寸", "name": "600*1200" }
+      ],
+      "collect": 11,
+      "isFavorite": false,
+      "saleNum": 0,
+      "status": 1,
+      "url": "https://m.anlewo.com/shop/goodsDetail?goodsId=102678",
+      "sku": [
+        {
+          "skuId": 109384,
+          "state": 1,
+          "brandId": 151,
+          "brandName": "诺贝尔瓷砖",
+          "cateId": 335,
+          "cateName": "地砖",
+          "goodsId": 102678,
+          "goodsName": "诺贝尔 摩卡浅灰 RT61813",
+          "cover": "http://www.woimg.com/beehive/2020/02/055f72737c027a050a27394f9e587032.jpeg",
+          "img": "http://www.woimg.com/beehive/2020/02/055f72737c027a050a27394f9e587032.jpeg",
+          "imgs": [
+            {
+              "id": 1,
+              "img": "http://www.woimg.com/beehive/2020/02/055f72737c027a050a27394f9e587032.jpeg"
+            },
+            {
+              "id": 2,
+              "img": "http://www.woimg.com/beehive/2020/02/fe7e6017cc91bf4cf08d662fb5233aa4.jpeg"
+            },
+            {
+              "id": 3,
+              "img": "http://www.woimg.com/beehive/2020/02/decb60fc193556869998fea9c80847b1.jpeg"
+            }
+          ],
+          "jingle": "",
+          "marketPrice": "658.00",
+          "packages": [{ "id": 1, "name": "主材包" }],
+          "price": "188.00",
+          "priceType": 1,
+          "floatPrice": "69.90",
+          "floatPriceUnit": "元/片",
+          "saleNum": 0,
+          "spec": "",
+          "unit": "片",
+          "qr": "https://www.woimg.com/beego/qr/109384.png",
+          "cabinetPrice": []
+        }
+      ],
+      "unit": "元/片",
+      "isOnlyZs": 0,
+      "scheduling": 1,
+      "specString": "地砖尺寸: 600*1200",
+      "cabinetPrice": []
+    }
+  },
+  {
+    "code": 12000,
+    "message": "",
+    "data": {
+      "goodsId": 102677,
+      "goodsName": " 诺贝尔 卡奇米灰 RT61812",
+      "jingle": "",
+      "cateId": 335,
+      "cateName": "地砖",
+      "brandId": 151,
+      "brandName": "诺贝尔瓷砖",
+      "price": "188",
+      "marketPrice": "658.00",
+      "img": "http://www.woimg.com/beehive/2020/02/599fff828fe60e8375ed73f563b7a9cb.jpeg",
+      "body": [
+        {
+          "type": "image",
+          "value": "http://www.woimg.com/beehive/d846ab431da81cbee071b3fcdbe8c920.jpg"
+        },
+        {
+          "type": "image",
+          "value": "http://www.woimg.com/beehive/6df894cb9f16618e308abe50506d6ad9.jpg"
+        },
+        {
+          "type": "image",
+          "value": "http://www.woimg.com/beehive/509344f4282cfc50aba19e8d974dc7b6.jpg"
+        },
+        {
+          "type": "image",
+          "value": "http://www.woimg.com/beehive/429a5cf96bbd5dd4e9bd5420828e7f6a.jpg"
+        },
+        {
+          "type": "image",
+          "value": "http://www.woimg.com/beehive/775303ac80bf1edd03759a3c78e2d0d7.jpg"
+        },
+        {
+          "type": "image",
+          "value": "http://www.woimg.com/beehive/155288413801a9929ad49798ec7e791e.jpg"
+        },
+        {
+          "type": "image",
+          "value": "http://www.woimg.com/beehive/772361e2a4bd51f5ab2f4c0624b4b364.jpg"
+        },
+        {
+          "type": "image",
+          "value": "http://www.woimg.com/beehive/83550a3e499e5e9bb046b66e12655989.jpg"
+        },
+        {
+          "type": "image",
+          "value": "http://www.woimg.com/beehive/e3495d7988f648308da8a6eaf38b4583.jpg"
+        },
+        {
+          "type": "image",
+          "value": "http://www.woimg.com/beehive/e7ffb2cd36b53c980a4f4101e4b2f224.jpg"
+        },
+        {
+          "type": "image",
+          "value": "http://www.woimg.com/beehive/c3c71db4127041592dab18b4719e5983.jpg"
+        },
+        {
+          "type": "image",
+          "value": "http://www.woimg.com/beehive/63d3ab363cbbdd1e5b9c19566f742d0e.jpg"
+        },
+        {
+          "type": "image",
+          "value": "http://www.woimg.com/beehive/2acb8ef7680e3d2f1c9f2d680c9aca34.jpg"
+        }
+      ],
+      "label": 1,
+      "labelPrice": "69.90",
+      "packages": [{ "id": 1, "name": "主材包" }],
+      "goodsSn": "RT61812",
+      "factorySn": "RT61812",
+      "spec": [],
+      "goodsAttr": [
+        { "id": "分类", "name": "地砖" },
+        { "id": "安乐窝型号", "name": "RT61812" },
+        { "id": "品牌", "name": "诺贝尔瓷砖" },
+        { "id": "风格", "name": "北欧风,现代简约,美式,欧式,新中式,轻奢" },
+        { "id": "地砖尺寸", "name": "600*1200" }
+      ],
+      "collect": 6,
+      "isFavorite": false,
+      "saleNum": 0,
+      "status": 1,
+      "url": "https://m.anlewo.com/shop/goodsDetail?goodsId=102677",
+      "sku": [
+        {
+          "skuId": 109383,
+          "state": 1,
+          "brandId": 151,
+          "brandName": "诺贝尔瓷砖",
+          "cateId": 335,
+          "cateName": "地砖",
+          "goodsId": 102677,
+          "goodsName": " 诺贝尔 卡奇米灰 RT61812",
+          "cover": "http://www.woimg.com/beehive/2020/02/599fff828fe60e8375ed73f563b7a9cb.jpeg",
+          "img": "http://www.woimg.com/beehive/2020/02/599fff828fe60e8375ed73f563b7a9cb.jpeg",
+          "imgs": [
+            {
+              "id": 1,
+              "img": "http://www.woimg.com/beehive/2020/02/599fff828fe60e8375ed73f563b7a9cb.jpeg"
+            },
+            {
+              "id": 2,
+              "img": "http://www.woimg.com/beehive/2020/02/6572be11eefb72535f8197d9759b19ac.jpeg"
+            },
+            {
+              "id": 3,
+              "img": "http://www.woimg.com/beehive/2020/02/38ddbce747a5499d77c85e031336b4ad.jpeg"
+            }
+          ],
+          "jingle": "",
+          "marketPrice": "658.00",
+          "packages": [{ "id": 1, "name": "主材包" }],
+          "price": "188.00",
+          "priceType": 1,
+          "floatPrice": "69.90",
+          "floatPriceUnit": "元/片",
+          "saleNum": 0,
+          "spec": "",
+          "unit": "片",
+          "qr": "https://www.woimg.com/beego/qr/109383.png",
+          "cabinetPrice": []
+        }
+      ],
+      "unit": "元/片",
+      "isOnlyZs": 0,
+      "scheduling": 1,
+      "specString": "地砖尺寸: 600*1200",
+      "cabinetPrice": []
+    }
+  }
+]

@@ -16,7 +16,7 @@ let request = require('../utils/request');
 function brandList() {
     return request.get('/good/brandList', {
         params: {
-            query:{}
+            query: {}
         }
     })
 }
@@ -26,7 +26,7 @@ function brandList() {
 function goodsList() {
     return request.get('/good/goodsList', {
         params: {
-            query:{}
+            query: {}
         }
     })
 }
@@ -34,7 +34,7 @@ function goodsList() {
 function home() {
     return request.get('/good/home', {
         params: {
-            query:{}
+            query: {}
         }
     })
 }
@@ -42,7 +42,7 @@ function home() {
 function shop() {
     return request.get('/good/shop', {
         params: {
-            query:{}
+            query: {}
         }
     })
 }
@@ -50,7 +50,7 @@ function shop() {
 function wozhidao() {
     return request.get('/good/wozhidao', {
         params: {
-            query:{}
+            query: {}
         }
     })
 }
@@ -59,7 +59,7 @@ function wozhidao() {
 function goodsDetail(page) {
     return request.get('/good/goodsDetail', {
         params: {
-            query:{},
+            query: {},
             page
             // 默认每次请求十条数据，
         }
@@ -67,11 +67,10 @@ function goodsDetail(page) {
 }
 
 // 查询museum的数据
-function museum(page) {
+function museum() {
     return request.get('/good/museum', {
         params: {
-            query:{},
-            page
+            query: {},
             // 默认每次请求十条数据，
         }
     })
@@ -80,7 +79,7 @@ function museum(page) {
 function shopList(page) {
     return request.get('/good/shopList', {
         params: {
-            query:{},
+            query: {},
             page
             // 默认每次请求十条数据，
         }
