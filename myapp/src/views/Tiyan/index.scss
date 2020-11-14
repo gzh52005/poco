@@ -1,0 +1,9 @@
+.am-list-header {
+  position: fixed;
+  top: 0;
+  z-index: 99;
+  background: #fff;
+  span {
+    color: #444;
+  }
+}
