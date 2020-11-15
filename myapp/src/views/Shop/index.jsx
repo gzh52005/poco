@@ -19,17 +19,26 @@ function Shop(props) {
             changeData2(build2 = data2)
             // console.log(build);
         })
-
-
-
-
-
     }, [])
 
+
+    //滚动条监听事件
+
+    window.addEventListener('scroll', () => {
+        // console.log(parseInt(window.pageYOffset))
+        let num = parseInt(window.pageYOffset);
+        let shopBox = document.querySelector('.shop-box');
+        if (shopBox) {
+            if (num < 20) {
+                shopBox.style.backgroundColor = '#fff'
+            } else {
+                shopBox.style.backgroundColor = 'rgba(245, 245, 245)'
+            }
+        }
+
+    })
     return (
-        <div className="shop-bigBox" onScroll={(e) => {
-            console.log(e);
-        }}>
+        <div className="shop-bigBox">
             <div className="shop-box">
                 <i className='shop-logo'></i>
                 <i className='shop-nav' onClick={() => { props.history.push('./listshop') }}></i>
