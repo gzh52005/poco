@@ -1,7 +1,6 @@
 import React from 'react'
 
 function Customer() {
-
     return (
         <div className='customer' style={{ background: '#1296db', position: 'fixed', textAlign: 'center', bottom: '35vh', right: '6vw', zIndex: '11', width: '45px', height: '45px' }}>
             <img style={{
