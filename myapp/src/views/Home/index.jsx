@@ -40,15 +40,21 @@ class Home extends React.Component {
         this.props.history.push(path)
     }
 
+
+
     handleScroll = function () {
-        let scrollTop = document.documentElement.scrollTop;
         let top = document.querySelector('.top')
-        if (scrollTop > 230) {
-            top.style.background = "#ffb900"
-        } else if (scrollTop < 230) {
-            top.style.background = "none"
+        if (top) {
+            let scrollTop = document.documentElement.scrollTop;
+            if (scrollTop > 230) {
+                top.style.background = "#ffb900"
+            } else if (scrollTop < 230) {
+                top.style.background = "none"
+            }
         }
+
     }
+
     render() {
 
         return (

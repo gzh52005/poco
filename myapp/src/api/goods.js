@@ -61,7 +61,6 @@ function goodsDetail(page) {
         params: {
             query: {},
             page
-            // 默认每次请求十条数据，
         }
     })
 }
@@ -71,7 +70,7 @@ function museum() {
     return request.get('/good/museum', {
         params: {
             query: {},
-            // 默认每次请求十条数据，
+          
         }
     })
 }
@@ -81,7 +80,25 @@ function shopList(page) {
         params: {
             query: {},
             page
-            // 默认每次请求十条数据，
+    
+        }
+    })
+}
+
+// 查询shopDetail的数据
+function shopDetail() {
+    return request.get('/good/shopDetail', {
+        params: {
+            query: {},
+            
+        }
+    })
+}
+// 查询topic的数据
+function topic() {
+    return request.get('/good/topic', {
+        params: {
+            query: {},
         }
     })
 }
@@ -97,5 +114,7 @@ module.exports = {
     shop,
     museum,
     shopList,
-    wozhidao
+    wozhidao,
+    shopDetail,
+    topic
 }
