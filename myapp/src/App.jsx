@@ -100,32 +100,38 @@ class App extends React.Component {
           <Redirect from="/" to="/home" exact />
           <Redirect to="/notfound" />
         </Switch>
-        <TabBar >
-          {/* #CFCF5A */}
-          {
-            menu.map(item => <TabBar.Item
-              title={item.text}
-              key={item.path}
-              onPress={this.goto.bind(null, item.path)}
-              icon={<div style={{
-                width: '22px',
-                height: '22px',
-                background: `url(${item.icon}) center center /  21px 21px no-repeat`
-              }}
-              />
-              }
-              selectedIcon={<div style={{
-                width: '22px',
-                height: '22px',
-                background: `url(${item.icon1}) center center /  21px 21px no-repeat`
-              }}
-              />
-              }
-            >
-            </TabBar.Item>)
-          }
 
-        </TabBar>
+        {
+          this.props.location.pathname === '/mine' || this.props.location.pathname === '/home' || this.props.location.pathname === '/shop' || this.props.location.pathname === '/tiyan' ?
+            <TabBar >
+
+              {
+
+                menu.map(item => <TabBar.Item
+                  title={item.text}
+                  key={item.path}
+                  onPress={this.goto.bind(null, item.path)}
+                  icon={<div style={{
+                    width: '22px',
+                    height: '22px',
+                    background: `url(${item.icon}) center center /  21px 21px no-repeat`
+                  }}
+                  />
+                  }
+                  selectedIcon={<div style={{
+                    width: '22px',
+                    height: '22px',
+                    background: `url(${item.icon1}) center center /  21px 21px no-repeat`
+                  }}
+                  />
+                  }
+                >
+                </TabBar.Item>)
+              }
+
+            </TabBar> : ""
+        }
+
 
       </div>
     )
