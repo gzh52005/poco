@@ -16,7 +16,7 @@ function StopList(props) {
 
     useEffect(function () {
         // 这里的代码在初始化和组件刷新时执行
-
+        //设置<meta>标签
         let oMeta = document.createElement('meta');
         oMeta.content = 'no-referrer';
         oMeta.name = 'referrer';
