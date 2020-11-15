@@ -94,7 +94,7 @@ class App extends React.Component {
           <Route path="/shop" component={Shop} />
           <Route path="/listshop" component={ListShop} />
           <Route path="/goodslist" component={GoodsList} />
-          <Route path="/detail" component={Detail} />
+          <Route path="/detail/:id" component={Detail} />
           <Route path="/notfound" render={() => <div>404</div>} />
           <Redirect from="/" to="/home" exact />
           <Redirect to="/notfound" />

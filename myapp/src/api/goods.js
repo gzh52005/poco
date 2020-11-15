@@ -86,12 +86,11 @@ function shopList(page) {
 }
 
 // 查询shopDetail的数据
-function shopDetail() {
+function shopDetail(id) {
     return request.get('/good/shopDetail', {
-        params: {
-            query: {},
-            
-        }
+         params: {
+                        query:{"goodsId": id}
+                   }
     })
 }
 // 查询topic的数据

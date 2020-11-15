@@ -122,8 +122,8 @@ class Demo extends React.Component {
             return (
                 <div key={rowID} style={{ padding: '0 15px' }} className={'con-box'} onClick={() => {
                     this.props.history.push({
-                        pathname: '/detail',
-                        id: obj.id
+                        pathname: '/detail/' + obj.id,
+                        // id: obj.id
                     })
                 }}>
                     <div style={{ display: '-webkit-box', display: 'flex', padding: '15px 0' }} className='box'>
