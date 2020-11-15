@@ -5,7 +5,7 @@ import './index.scss';
 import { Icon, Grid } from 'antd-mobile';
 
 function StopList(props) {
-    // console.log(props);
+    console.log(props);
 
     let [listData9, changeData9] = useState([])
     let [listData, changeData] = useState([])
@@ -46,9 +46,10 @@ function StopList(props) {
 
     return (
 
-        <div className={"lists-box"}>
+        <div className="lists-box">
             <div className="lists-box1">
-                <h3>瓷砖</h3>
+                <h3>建材</h3>
+
                 <Icon type='left' size='lg' className={'icon-left'} onClick={() => { props.history.push('./shop') }} />
             </div>
             <div className="box2">
