@@ -2,7 +2,12 @@
     position: fixed;
     bottom: 0;
 }
+
 * {
     /* 怪异盒模型 */
     box-sizing: border-box;
+}
+
+.am-tabs-content-wrap {
+    margin-top: 0 !important;
 }
