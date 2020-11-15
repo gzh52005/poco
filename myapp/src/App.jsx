@@ -11,7 +11,7 @@ import Shop from './views/Shop'
 import ListShop from './views/ListShop'
 import GoodsList from './views/GoodsList'
 import Detail from './views/Detail'
-
+import Topic from './views/Home/Topic'
 
 
 // 旧版本按需引入（不推荐）
@@ -95,6 +95,7 @@ class App extends React.Component {
           <Route path="/listshop" component={ListShop} />
           <Route path="/goodslist" component={GoodsList} />
           <Route path="/detail" component={Detail} />
+          <Route path="/topic" component={Topic} />
           <Route path="/notfound" render={() => <div>404</div>} />
           <Redirect from="/" to="/home" exact />
           <Redirect to="/notfound" />

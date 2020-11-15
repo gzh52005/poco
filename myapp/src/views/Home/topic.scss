@@ -1,0 +1,17 @@
+.topic {
+  background-color: #fff;
+  .title {
+    top: 0;
+    left: 0;
+    width: 100%;
+    position: fixed;
+    height: 46px;
+    text-align: center;
+    line-height: 46px;
+    background-color: #fff;
+    z-index: 5;
+    font-size: 17px;
+    font-weight: 600;
+    margin: 0 auto;
+  }
+}
