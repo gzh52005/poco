@@ -101,7 +101,7 @@ function Reg(props) {
     }
 
     return (
-        <div style={{ backgroundColor: 'white', height: '100vh' }}>
+        <div className="reg" style={{ backgroundColor: 'white', height: '100vh' }}>
             <NavBar
                 mode="light"
                 icon={<Icon type="left" />}
@@ -110,7 +110,7 @@ function Reg(props) {
                 }}
             ></NavBar>
             <section className="reg"  >
-                <h2 style={{ padding: '0 20px' }} >注册</h2>
+                <h2 style={{ padding: '5vw 20px' }} >注册</h2>
                 <p style={{ padding: '0 20px' }}>已有账号？请<a style={{ color: 'blue' }} onClick={() => {
                     props.history.push("/login");
                 }}>登录</a> </p>
@@ -137,8 +137,7 @@ function Reg(props) {
                         >
                             手机号
                         </InputItem>
-                    </List>
-                    <List>
+                    
                         <InputItem style={{ fontSize: '12px' }}
                             {...getFieldProps("password", {
                                 validate: [

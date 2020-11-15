@@ -66,9 +66,11 @@ body {
         float: right;
         height:vw(20);
         width: vw(20); 
+        margin-top: vw(12);
     }
     p{
+        line-height:vw(35);
         border-bottom: vw(1) #efefef solid;
-        padding-bottom: vw(5);
+        padding-bottom: vw(2);
     }
 }
