@@ -10,6 +10,7 @@ import Mine from './views/Mine'
 import Shop from './views/Shop'
 import ListShop from './views/ListShop'
 import GoodsList from './views/GoodsList'
+import Detail from './views/Detail'
 
 
 
@@ -93,6 +94,7 @@ class App extends React.Component {
           <Route path="/shop" component={Shop} />
           <Route path="/listshop" component={ListShop} />
           <Route path="/goodslist" component={GoodsList} />
+          <Route path="/detail" component={Detail} />
           <Route path="/notfound" render={() => <div>404</div>} />
           <Redirect from="/" to="/home" exact />
           <Redirect to="/notfound" />

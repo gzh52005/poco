@@ -1,0 +1,221 @@
+@function vw($n) {
+    // vw移动端适配
+    // 如果效果图是750，就除以750;
+    @return ($n * 2 * 100 / 750)+vw;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+
+}
+.detail{
+    width: 100%;
+    height: 100%;
+    .box0{
+        width: 100%;
+        height: 100%;
+        // background-color: #fff;
+         .box1{
+        width: 100%;
+        height: 100%;
+         img{
+             display:block;
+        width: 100%;
+        height: vw(375);
+        border-radius: vw(5);
+        background-color: #fbfbfb;
+      }
+    }
+    .box2{
+        width: 100%;
+        height: vw(50);
+        background-color: #fff;
+        padding: vw(10) vw(15) 0;
+        display: flex;
+        img{
+            width: vw(48);
+            height: vw(48);
+        }
+        .mid-img{
+            width: vw(48);
+            height: vw(48);
+            line-height: vw(22);
+            margin: 0 vw(5);
+            border: vw(1) dashed #999;
+            display: inline-block;
+            text-align: center;
+            border: 1px dashed #999;
+            color: #999;
+            // line-height: vw(25);
+            span{
+                font-size: vw(10);
+                color: #999;
+              
+            }
+        }
+    } 
+    .box3{
+        width: 100%;
+        height: 100%;
+        padding: vw(30) vw(16) vw(16);
+        color: #444;
+        -webkit-transition: bottom .5s;
+        transition: bottom .5s;
+        background-color: #fff;
+        h3{
+            // line-height:vw(12);
+            font-size: vw(20);
+            line-height: vw(30);
+            font-weight: normal;
+            word-break: break-all;
+        }
+        .box-con{
+
+            .p1{
+                margin: vw(6) 0;
+                i{
+                    display: inline-block;
+                    font-style: none;
+                    margin-right: vw(5);
+                    width: vw(14);
+                    height:vw(12);
+                    background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAWCAMAAADkSAzAAAAAS1BMVEUAAAD9hET9hET9hET9hET9hET9hET9hET9hET9hET9hET9hET9hET9hET9hET9hET9hET9hET9hET9hET9hET9hET9hET9hET9hESHEEDiAAAAGHRSTlMAVgoCWcGdNO/sm/C0UMAR5qmjfc/HhD17aGokAAAAh0lEQVQoz3XOyxaDIAxF0SBpCxZKta/8/5cWstTrI57BHbAHhL4yFbiMIjHTKkHsr3WdjVCgrcBXHkxVI/KfrQLbhb1sFDh4Kk/82y8qrfdYzdAgh9yiWc6UqzpT9SpbI3W6pib66Vp66W6hLUEtg8LuMOjRoLAHDArbxWolwta5mOorhzTbH1uZIKxNSD5CAAAAAElFTkSuQmCC');
+                    background-size: vw(14) vw(12);
+                    background-repeat: no-repeat;
+                 }
+                 .s1{
+                    color: #fd8444;
+                 }
+                 .s2{
+                    color: #fd8444;
+                    font-size: vw(12);
+                 }
+                 .s3{
+                    display: inline-block;
+                 
+                    margin-left:vw(5);
+                    padding: vw(2) vw(4);
+                    // line-height: vw(16);
+                    text-align: center;
+                    border-radius: vw(6);
+                    font-size: vw(12);
+                    border: vw(1) solid #ffca03;
+                    color: #ffca03;
+                 }
+            }
+            .p2{
+                width: 100%;
+                display: flex;
+                -webkit-box-pack: justify;
+                justify-content: space-between;
+                margin: vw(10) 0 vw(20);
+                .s4{
+                    display: block;
+                    font-size: vw(10);
+                    color: #999;
+                }
+                .s5{
+                    display: block;
+                    font-size: vw(10);
+                    color: #999;
+                }
+            }
+            .p3{
+                font-size: 0;
+                margin: vw(2) 0;
+                span{
+                    height: vw(12);
+                    font-size: vw(12);
+                    color: #999;
+                    line-height: vw(12);
+                    margin-right: vw(6);
+       
+                }
+                :nth-child(n+2){
+                    height: vw(20);
+                    text-align: center;
+                    background: #f5f5f5;
+                    border-radius:vw(16);
+                    color: #999;
+                    font-size: vw(8);
+                    line-height: vw(15);
+                    padding: vw(2) vw(4);
+                    display: inline-block;
+                    margin: 0 vw(3) vw(3) 0;
+                }
+            }
+        }
+    }
+    .box4{
+        position: relative;
+        margin-top: vw(10);
+        padding: vw(20) vw(15);
+        // -webkit-box-shadow: 0 1px 2px 1px #eae7e7;
+        // box-shadow: 0 1px 2px 1px #eae7e7;
+        background-color: #fff;
+       
+        h3{
+            font-size: vw(16);
+            font-weight: 600;
+            padding-left: vw(10);
+            position: relative;
+            color: #333;
+           
+        }
+        h3::before{
+            display: block;
+            content: "";
+            position: absolute;
+            left: 0;
+            top: 0;
+            bottom: 0;
+            width: vw(2.5);
+            height: vw(12);
+            margin: auto;
+            background: #232323;
+        }
+        ul{
+            margin: vw(12) 0;
+            // max-height: vw(200);
+            overflow: hidden;
+            -webkit-transition: max-height .5s;
+            transition: max-height .5s;
+            li{
+                list-style: none;
+                display: flex;
+                -webkit-box-pack: start;
+                justify-content: flex-start;
+                line-height: vw(30);
+                padding: 0 vw(10);
+                span{
+                    font-size: vw(14);
+                }
+                span:nth-child(1){
+                    width: 28%;
+                    color: #999;
+                }
+                span:nth-child(2){
+                    color: #222;
+                }
+                
+            }
+        }
+    }
+    .box5{
+        min-height: 50%;
+    padding: 0 vw(15) vw(15);
+    background-color: #fff;
+    img{
+        display: block;
+        width: 100%;
+    }
+    }
+ }
+}
