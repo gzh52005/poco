@@ -11,7 +11,7 @@ import Shop from './views/Shop'
 import ListShop from './views/ListShop'
 import GoodsList from './views/GoodsList'
 import Detail from './views/Detail'
-import Topic from './views/Home/Topic'
+import Topic from './views/Home/topic'
 
 
 // 旧版本按需引入（不推荐）
@@ -20,7 +20,7 @@ import Topic from './views/Home/Topic'
 
 // 新版本按需加载，需要什么直接写，只需要从antd-mobile拿
 // 使用了babel-plugin-import插件进行按需加载，已安装
-// import { Button } from 'antd-mobile';
+// import { Button,TabBar } from 'antd-mobile';
 import 'antd-mobile/dist/antd-mobile.css'
 import './App.scss';
 import { TabBar } from 'antd-mobile';
