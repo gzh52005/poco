@@ -14,4 +14,22 @@
     font-weight: 600;
     margin: 0 auto;
   }
+  .imgBox {
+      padding-top:3px;
+    ul {
+        overflow: hidden;
+        li {
+        list-style: none;
+        background-color: #fff;
+        width: 33.33%;
+        padding: 0 3%;
+        float: left;
+        img {
+          width: 100%;
+          height: 100%;
+          margin: 28px 0;
+        }
+      }
+    }
+  }
 }
