@@ -21,9 +21,6 @@ class Home extends React.Component {
         let { data } = await goodApi.home()
         // console.log(data)
 
-
-
-
         this.setState({
             arr: data.data[0].brand.items
         })
@@ -36,6 +33,7 @@ class Home extends React.Component {
             });
         }, 3000);
     }
+
     goto = (path) => {
         this.props.history.push(path)
     }
@@ -118,13 +116,13 @@ class Home extends React.Component {
                     </ul>
 
                     <div >
-                        <img style={{ float: 'left', margin: '0 0 0 3vw', width: '43vw' }} src="https://www.woimg.com/beego/8fb7d286752a2bba71acfb37a344d698.jpg" alt="" />
-                        <img style={{ margin: '0vw 3vw 1vw 3vw', float: 'left', width: '46vw' }} src="https://m.anlewo.com/static/img/zcb@3x.a2246.png" alt="" />
-                        <img style={{ margin: '0 3vw', float: 'left', width: '46vw' }} src="https://m.anlewo.com/static/img/zzb@3x.c85b1.png" alt="" />
+                        <img onClick={this.goto.bind(null, "/tiyan")} style={{ float: 'left', margin: '0 0 0 3vw', width: '43vw' }} src="https://www.woimg.com/beego/8fb7d286752a2bba71acfb37a344d698.jpg" alt="" />
+                        <img onClick={this.goto.bind(null, "/tiyan")} style={{ margin: '0vw 3vw 1vw 3vw', float: 'left', width: '46vw' }} src="https://m.anlewo.com/static/img/zcb@3x.a2246.png" alt="" />
+                        <img onClick={this.goto.bind(null, "/tiyan")} style={{ margin: '0 3vw', float: 'left', width: '46vw' }} src="https://m.anlewo.com/static/img/zzb@3x.c85b1.png" alt="" />
                     </div>
                 </div>
                 <div className="nav">
-                    <p className="title">品牌街 <span>更多127 &gt;</span></p>
+                    <p className="title">品牌街 <span onClick={this.goto.bind(null, "/topic")}>更多127 &gt;</span></p>
                     <div className="navimg">
                         {
                             this.state.arr ?
@@ -138,15 +136,15 @@ class Home extends React.Component {
 
                 </div>
                 <div className="collocation">
-                    <p className="title">窝搭配 <span>更多搭配 &gt;</span></p>
+                    <p className="title">窝搭配 <span onClick={this.goto.bind(null, "/goodslist")} >更多搭配 &gt;</span></p>
                     <img src="https://www.woimg.com/beego/394e4ae10cd353c797b6acb953c15fe1.jpg" alt="" />
-                    <p style={{margin:'5vw 0'}}>窝搭配装修案例赏析</p>
+                    <p style={{ margin: '5vw 0' }}>窝搭配装修案例赏析</p>
                     <p className="detile"><span>客厅</span><span>卧室</span> 现代简约</p>
                 </div>
                 <img style={{ width: '100vw', marginTop: '2vw' }} src="https://m.anlewo.com/special/join/img/banner.png" alt="" />
                 <p className='foot'>我是有底线的</p>
             </div>
-            
+
         );
     }
 }
