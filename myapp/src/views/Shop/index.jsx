@@ -2,6 +2,7 @@
 import React, { useState, useEffect, useReducer, useCallback } from 'react';
 import goodsApi from '../../api/goods';
 import './index.scss';
+import Customer from '../Tiyan/customer'
 function Shop(props) {
     // console.log(props);
     let [build, changeData] = useState([]);
@@ -86,6 +87,7 @@ function Shop(props) {
                     </ul>
                 </div>
             </div>
+            <Customer />
         </div >
     )
 }

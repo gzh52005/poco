@@ -1,8 +1,16 @@
 import React from 'react'
+import { Modal } from 'antd-mobile';
+
 
 function Customer() {
+    const alert = Modal.alert;
+
     return (
-        <div className='customer' style={{ background: '#1296db', position: 'fixed', textAlign: 'center', bottom: '35vh', right: '6vw', zIndex: '11', width: '45px', height: '45px' }}>
+        <div className='customer' style={{ background: '#1296db', position: 'fixed', textAlign: 'center', bottom: '35vh', right: '6vw', zIndex: '11', width: '45px', height: '45px' }} onClick={() =>
+            alert('抱歉', '客服小姐姐暂时不在哦！', [
+                { text: '取消', onPress: () => console.log('cancel') },
+                { text: '完成', onPress: () => console.log('ok') },
+            ])}>
             <img style={{
                 position: 'absolute', width: '18 px', height: '18px', top: '5px',
                 right: '12px'
@@ -12,7 +20,7 @@ function Customer() {
                 position: 'absolute', fontSize: '12px', width: '40px', textAlign: 'left', marginTop: '24px', marginLeft: '10px', borderBottom: ' 0 #fff solid',
                 paddingBottom: '0',
             }}>咨询</p>
-        </div>
+        </ div>
 
     )
 }

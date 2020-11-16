@@ -2,7 +2,7 @@ import React, { useState, useEffect, useReducer, useCallback, ReactDOM, withRout
 import Demo from './content2'
 import './index.scss';
 import { Icon, Tabs, WhiteSpace, ListView } from 'antd-mobile';
-
+import Customer from '../Tiyan/customer'
 
 
 function GoodsList(props) {
@@ -45,8 +45,10 @@ function GoodsList(props) {
             {/* <WhiteSpace className={'goods-box2'} /> */}
             <Tabs tabs={tabs} renderTabBar={props => <Tabs.DefaultTabBar {...props} />}>
                 <Demo />
+
             </Tabs>
             {/* <WhiteSpace /> */}
+            <Customer />
         </div >
     )
 }

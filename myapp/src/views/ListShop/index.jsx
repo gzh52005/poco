@@ -3,6 +3,7 @@ import React, { useState, useEffect, useReducer, useCallback } from 'react';
 import goodsApi from '../../api/goods';
 import './index.scss';
 import { Icon, Grid } from 'antd-mobile';
+import Customer from '../Tiyan/customer'
 
 function StopList(props) {
     console.log(props);
@@ -110,7 +111,7 @@ function StopList(props) {
                 </div>
 
             </div>
-
+            <Customer />
         </div >
     )
 }

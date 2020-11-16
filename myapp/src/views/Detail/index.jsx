@@ -2,10 +2,13 @@ import React, { useState, useEffect, useReducer, useCallback } from 'react';
 // import { ListView } from 'antd-mobile';
 import './index.scss'
 import goodsApi from '../../api/goods';
+import Customer from '../Tiyan/customer'
+import { Icon, Grid } from 'antd-mobile';
 
 
 
 function Detail(props) {
+    let [currentIndex, changeCurrent] = useState(true) //切换类名默认值
     let [listData, changeData] = useState([]) //接收值和改变值的方法
     // console.log('props=============>', props);
     let id = props.match.params.id * 1;
@@ -33,13 +36,20 @@ function Detail(props) {
                 </div>
                 <div className="box2">
                     <div className="left-img">
-                        <img src={listData[0].img} alt="" />
+                        <img src={listData[0].img} alt="" className={currentIndex == true ? 'linebox' : ''}
+                            onClick={() => {
+                                changeCurrent(currentIndex = true)
+                            }}
+                        />
                     </div>
                     <div className="mid-img">
                         <span>款式<br />预览</span>
                     </div>
-                    <div className="right-img">
-                        <img src={listData[0].img} alt="" />
+                    <div className="right-img" >
+                        <img src={listData[0].img} alt="" className={currentIndex == false ? 'linebox' : ''}
+                            onClick={() => {
+                                changeCurrent(currentIndex = false)
+                            }} />
                     </div>
                 </div>
                 <div className="box3">
@@ -104,9 +114,10 @@ function Detail(props) {
                     <img src="http://www.woimg.com/beehive/2017/02/ee9198f2eb44aea4d42438611d336fb1.jpg" alt="" />
                     <img src="http://www.woimg.com/beehive/be384da280b11915a37a1a7a7ab52612.jpg" alt="" /> */}
                 </div>
+                <div className='icon-png' onClick={() => { props.history.go(-1) }}></div>
             </div>
-
-        </div>
+            <Customer />
+        </div >
     ) : null
 }
 export default Detail;
