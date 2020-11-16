@@ -70,7 +70,7 @@ function Reg(props) {
                         localStorage.setItem('currentUser', JSON.stringify(data))
                         Toast.info("登录成功");
                         const { redirectTo } = searchFormat(props.location.search)
-                        console.log('redirectTo=', redirectTo)
+                        // console.log('redirectTo=', redirectTo)
                         props.history.push(redirectTo || '/mine');
                     }else{
                         Toast.info("用户名或密码错误");

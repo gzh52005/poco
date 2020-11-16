@@ -6,7 +6,7 @@ module.exports = function(app) {
   app.use(
     createProxyMiddleware('/dev-api', {
     // http://localhost:8080/ 地址只是示例，实际地址以项目为准
-      target: 'http://10.3.132.89:6666',
+      target: 'http://47.112.249.18:6666',
       
       changeOrigin: true, //是否跨域，如果target是域名则需要配置，如果是ip地址不需要
       // 重写接口路由

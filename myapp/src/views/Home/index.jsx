@@ -2,7 +2,7 @@
 import React, { useState, useEffect } from 'react'
 import './index.scss';
 import goodApi from '../../api/goods'
-
+import Customer from '../Tiyan/customer'
 import { Carousel, WingBlank } from 'antd-mobile';
 
 
@@ -56,8 +56,9 @@ class Home extends React.Component {
     render() {
 
         return (
-
+ 
             <div className='home'>
+                <Customer/>
                 <div className="top" style={{
                     width: '100vw',
                     position: "fixed", color: "white", zIndex: 9999, padding: '2vw'
@@ -101,7 +102,7 @@ class Home extends React.Component {
                             <img src="https://www.woimg.com/beego/feb687ad88d68d8cdc06bbddcf6d08c9.png" alt="" />
                             <p>报价计算器</p>
                         </li>
-                        <li onClick={this.goto.bind(null, "/shop")}>
+                        <li onClick={this.goto.bind(null, "/listshop")}>
                             <img src="https://www.woimg.com/beego/0fac90da521de7b7fae4d874d75c3fee.jpg" alt="" />
                             <p>建材商城</p>
                         </li>

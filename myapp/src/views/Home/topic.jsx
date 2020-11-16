@@ -9,16 +9,21 @@ class Topic extends React.Component {
         this.state = {
             arr: []
         }
+        this.goto=this.goto.bind(this)
     }
 
     async componentDidMount() {
         window.addEventListener('scroll', this.handleScroll);
         let { data } = await Api.topic()
-        console.log(data)
+        // console.log(data)
 
         this.setState({
             arr: data.data
         })
+    }
+
+    goto = (path) => {
+        this.props.history.push(path)
     }
 
     render() {
