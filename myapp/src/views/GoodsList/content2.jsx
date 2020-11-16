@@ -3,7 +3,6 @@ import { HashRouter, BrowserRouter, Route, Redirect, Switch, Link, NavLink, with
 import { ListView } from 'antd-mobile';
 import './index.scss'
 import goodsApi from '../../api/goods';
-
 const data = [];
 const NUM_ROWS = 40;
 let pageIndex = 0;
@@ -163,6 +162,7 @@ class Demo extends React.Component {
                         </div>
 
                     </div>
+
                 </div >
             );
         };
