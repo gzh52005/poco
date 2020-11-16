@@ -91,6 +91,7 @@ class App extends React.Component {
           {/* <Route path="/iq/:id" component={IQDetail} /> */}
           <Route path="/tiyan" component={Tiyan} />
           <Route path="/mine" component={Mine} />
+          <Route path="/topic" component={Topic} />
           <Route path="/shop" component={Shop} />
           <Route path="/listshop" component={ListShop} />
           <Route path="/goodslist" component={GoodsList} />
