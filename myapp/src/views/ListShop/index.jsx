@@ -102,9 +102,6 @@ function StopList(props) {
                                     </li>
                                 })
                             }
-
-
-
                         </ul>
                     </div>
                 </div>
