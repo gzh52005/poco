@@ -1,5 +1,6 @@
 import { Divider } from 'antd';
 import React from 'react'
+import {withAuth} from '../../utils/hoc'
 
 import { Table, Button } from 'antd';
 
@@ -29,7 +30,7 @@ for (let i = 0; i < 46; i++) {
 }
 
 
-class order extends React.Component  {
+class Order extends React.Component  {
     state = {
         selectedRowKeys: [], // Check here to configure the default column
         loading: false,
@@ -71,5 +72,5 @@ class order extends React.Component  {
     }
 }
 
-
-export default order;
+// Order = withAuth(Order);
+export default Order;
