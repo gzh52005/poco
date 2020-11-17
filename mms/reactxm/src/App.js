@@ -46,12 +46,32 @@ class App extends React.Component{
   goto = (path)=>{
     this.props.history.push(path)
   }
-  changeMenu = ({key})=>{
-   this.setState({
-    currentPath:key
-   })
-  }
+  changeMenu = ({ key }) => {
+    this.setState({
+        currentPath: key
+    })
+}
+UNSAFE_componentWillMount() {
+    // 获取当前路径
+    const { pathname } = this.props.location;
+    this.setState({
+        currentPath: pathname
+    })
+    const user = localStorage.getItem('currentUser')
+    console.log("user=", user);
+    this.setState({
+        user: user
+    })
+}
+user = () => {
+    localStorage.removeItem('currentUser')
+    this.props.history.push('/login')
+}
+componentDidMount() {
+
+}
   render(){
+    const { menu, currentPath, user } = this.state;
     return (
       <>
         <Row style={{backgroundColor:'#001529'}}>
@@ -66,9 +86,16 @@ class App extends React.Component{
         </Menu>
         </Col>
 
-          <Col span={4} style={{textAlign:'right',lineHeight:'46px'}}>   
-           <Button type='link'>登录</Button>
-           <Button type='link'>注册</Button></Col>
+        <Col span={4} style={{ textAlign: 'right', lineHeight: '46px' }}>
+                        {
+                            user ? <Button onClick={this.user} type="link">退出</Button>
+                                :
+                                <React.Fragment>
+                                    <Button type="link" onClick={this.goto.bind(this, '/reg')}>注册</Button>
+                                    <Button type="link" onClick={this.goto.bind(this, '/login')}>登录</Button>
+                                </React.Fragment>
+                        }
+                    </Col>
         </Row>
         <ul>
         </ul>
@@ -109,4 +136,6 @@ class App extends React.Component{
   }
 }
 
-export default App;
+const NewApp = withRouter(App)
+
+export default NewApp;
