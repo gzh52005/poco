@@ -119,51 +119,52 @@ class Demo extends React.Component {
             }
             const obj = data[index--];
             return (
-                <div key={rowID} style={{ padding: '0 15px' }} className={'con-box'} onClick={() => {
-                    this.props.history.push({
-                        pathname: '/detail/' + obj.id,
-                        // id: obj.id
-                    })
-                }}>
-                    <div style={{ display: '-webkit-box', display: 'flex', padding: '15px 0' }} className='box'>
-                        <div className='left'>
-                            <img src={obj.img} alt="" />
-                        </div>
-                        <div className="right">
+                obj ?
+                    <div key={rowID} style={{ padding: '0 15px' }} className={'con-box'} onClick={() => {
+                        this.props.history.push({
+                            pathname: '/detail/' + obj.id,
+                            // id: obj.id
+                        })
+                    }}>
+                        <div style={{ display: '-webkit-box', display: 'flex', padding: '15px 0' }} className='box'>
+                            <div className='left'>
+                                <img src={obj.img} alt="" />
+                            </div>
+                            <div className="right">
 
-                            <p className={'p1'}>{obj.name}</p>
-                            <p className={'p2'}>{obj.goodsName}</p>
+                                <p className={'p1'}>{obj.name}</p>
+                                <p className={'p2'}>{obj.goodsName}</p>
 
-                            <p className={'p3'}>
-                                {obj.sev.map(item => {
-                                    return (<span key={item.id}>{item.name}</span>)
-                                })}
+                                <p className={'p3'}>
+                                    {obj.sev.map(item => {
+                                        return (<span key={item.id}>{item.name}</span>)
+                                    })}
 
 
-                            </p>
-                            <p className={'p4'}>
-                                <i></i>
-                                <span className="s1">+</span>
-                                <span className="s2">
-                                    ¥ {obj.floatPrice}元
+                                </p>
+                                <p className={'p4'}>
+                                    <i></i>
+                                    <span className="s1">+</span>
+                                    <span className="s2">
+                                        ￥ {obj.floatPrice}元
                                         </span>
-                                <span className="s3">套餐</span>
-                            </p>
-                            <p className="p5">
-                                <span className="s4">
-                                    市场价
-                                        <s>¥{obj.marketPrice}</s>
-                                </span>
-                                <span className="s5">
+                                    <span className="s3">套餐</span>
+                                </p>
+                                <p className="p5">
+                                    <span className="s4">
+                                        市场价
+                                        <s>￥{obj.marketPrice}</s>
+                                    </span>
+                                    <span className="s5">
 
-                                    {obj.saleNum > 10000 ? parseInt(obj.saleNum / 10000) + '万+' : obj.saleNum} 已售
+                                        {obj.saleNum > 10000 ? parseInt(obj.saleNum / 10000) + '万+' : obj.saleNum} 已售
                                         </span>
-                            </p>
+                                </p>
+                            </div>
+
                         </div>
 
-                    </div>
-
-                </div >
+                    </div > : ''
             );
         };
         return (
