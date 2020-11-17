@@ -72,5 +72,5 @@ class Order extends React.Component  {
     }
 }
 
-// Order = withAuth(Order);
+Order = withAuth(Order);
 export default Order;

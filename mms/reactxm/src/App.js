@@ -106,7 +106,7 @@ componentDidMount() {
         theme="dark"
          selectedKeys={[this.state.currentPath]}
          onClick={this.changeMenu}
-         style={{height:'88vh', width:'200px',float:'left',marginRight:'20px'}}
+         style={{height:'88vh', width:'200px',float:'left',marginRight:'20px',marginTop:'-15px'}}
         >
             {
             this.state.menu.map(item => <Menu.Item key={item.path} >
