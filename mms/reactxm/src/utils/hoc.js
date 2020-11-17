@@ -12,11 +12,11 @@
 import React from 'react';
 import {Redirect} from 'react-router-dom'
 import request from './request'
+import {message} from 'antd'
 
-export function withUser(InnerComponent){
+ export function withUser(InnerComponent){
     return function OuterComponent(props){
-        // console.log('OuterComponent.props=',props)
-        // 获取用户信息
+        console.log('OuterComponent.props=',props)
         let data = localStorage.getItem('currentUser');
         let currentUser
         try{
@@ -47,9 +47,9 @@ export function withStorage(key){
     }
 }
 
-//相当于路由守卫
+
 export function withAuth(InnerComponent){
-  
+    // @withUser
     // 反向继承（要求传入的组件必须为类组件）
     // class OuterComponent extends InnerComponent{
     //     render(){
@@ -62,11 +62,12 @@ export function withAuth(InnerComponent){
     //     }
     // }
     // OuterComponent = withUser(OuterComponent)
-    //  @withUser
+
+
     class OuterComponent extends React.Component{
         async componentDidMount(){
             const {currentUser} = this.props;
-      console.log(currentUser,'666');
+
             // 校验token
             if(currentUser){
                 const data = await request.get('/user/verify',{},{
@@ -74,13 +75,13 @@ export function withAuth(InnerComponent){
                         Authorization:currentUser.Authorization
                     }
                 });
+    
+                console.log('verify=',data);
                 if(data.status === 401){
                     message.error('登录已失效，请重新登录')
                     this.props.history.replace({
                         pathname:'/login',
-                        // 当前页面地址/add
                         search:'?redirectTo='+this.props.location.pathname
-                        // search:'?redirectTo=/add'
                     })
                 }
 
